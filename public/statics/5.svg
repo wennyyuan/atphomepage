@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="248px" height="279px" viewBox="0 0 248 279" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>编组 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="8.82570793%" y1="69.5243699%" x2="143.296588%" y2="48.4170798%" id="linearGradient-1">
+            <stop stop-color="#DCF754" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#DCF754" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="8.82570793%" y1="100%" x2="100%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#DCF754" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#DCF754" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="画板备份-5" transform="translate(-127.000000, -187.000000)">
+            <g id="编组-2" transform="translate(128.000000, 186.000000)">
+                <polygon id="路径" stroke="#DCF754" points="150.445209 1.65408599 294.059731 279.172957 0 279.172957"></polygon>
+                <g id="编组" transform="translate(151.735478, 140.321148) scale(-1, 1) translate(-151.735478, -140.321148) translate(5.735478, 0.821148)">
+                    <g id="编组-3" transform="translate(0.000000, 0.554717)">
+                        <polygon id="路径-10" fill="url(#linearGradient-1)" points="198.377211 95.3995109 291.887546 157.399293 -1.42108547e-14 277.797093"></polygon>
+                        <polygon id="路径-10备份" fill="url(#linearGradient-2)" points="147.845374 -7.10542736e-14 198.649095 94.8197882 1.13686838e-13 277.797093"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
