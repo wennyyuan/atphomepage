@@ -930,14 +930,23 @@ a.active {
 	width: 100%;
 	height: auto;
 }
-
+.partner-container .partner-item-info{
+	position: absolute;
+	width: 100%;
+	top: 150px;
+}
 .partner-pic {
 	width: 300px;
 	padding-top: 40px;
 	margin: 0px auto 20px;
 	position: relative;
 }
-
+.partner-pic .partner-pic-img {
+	opacity: 0.2;
+}
+.partner-pic .pic-box{
+	position: absolute;
+}
 .partner-pic img.trangle {
 	width: 132px;
 	height: 124px;
@@ -961,6 +970,7 @@ a.active {
 	height: 40px;
 	border-radius: 100%;
 	overflow: hidden;
+	margin-top: 20px;
 }
 
 .user-name {

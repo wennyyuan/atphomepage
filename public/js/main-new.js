@@ -60,7 +60,6 @@ function initFrontStar() {
 // });
 window.onload = function(){
   let ua = window.navigator.userAgent;
-  // alert(ua);
   if (ua.indexOf('iPhone')!=-1 && ua.indexOf('Safari')!=-1 && ua.indexOf('Mobile')!=-1) {
     try{
       let sloganEn = document.querySelector('#sloganEn');
@@ -83,6 +82,107 @@ function initFrontPage() {
   $(".arrow-up").addClass('active');
   
 }
+function initPartner() {
+  let partnerData = [{
+    bgImg: 'pic_dangdang.png',
+    triangleColor: '90px solid rgba(255,90,52,0.8)',
+    avatarImg: 'avatar-uxin.png',
+    name: '丁香园·季昕华',
+    say: `“Ruby是我最早的天使投资人，和我一见如故，她总能在关键时刻帮助到你。”`
+  }, {
+    bgImg: 'pic_dingxiangyuan.png',
+    triangleColor: `90px solid rgba(167,11,255,0.8)`,
+    avatarImg: 'avatar-uxin.png',
+    name: '丁香园·季昕华',
+    say: `“Ruby是我最早的天使投资人，和我一见如故，她总能在关键时刻帮助到你。”`
+  }, {
+    bgImg: 'pic_ecarx.png',
+    triangleColor: `rgba(220,247,84,0.8)`,
+    avatarImg: 'avatar-uxin.png',
+    name: '丁香园·季昕华',
+    say: `“Ruby是我最早的天使投资人，和我一见如故，她总能在关键时刻帮助到你。”`
+  }, {
+    bgImg: 'pic_dingxiangyuan.png',
+    triangleColor: `90px solid rgba(167,11,255,0.8)`,
+    avatarImg: 'avatar-uxin.png',
+    name: '丁香园·季昕华',
+    say: `“Ruby是我最早的天使投资人，和我一见如故，她总能在关键时刻帮助到你。”`
+  }, {
+    bgImg: 'pic_dingxiangyuan.png',
+    triangleColor: `90px solid rgba(167,11,255,0.8)`,
+    avatarImg: 'avatar-uxin.png',
+    name: '丁香园·季昕华',
+    say: `“Ruby是我最早的天使投资人，和我一见如故，她总能在关键时刻帮助到你。”`
+  }, {
+    bgImg: 'pic_dingxiangyuan.png',
+    triangleColor: `90px solid rgba(167,11,255,0.8)`,
+    avatarImg: 'avatar-uxin.png',
+    name: '丁香园·季昕华',
+    say: `“Ruby是我最早的天使投资人，和我一见如故，她总能在关键时刻帮助到你。”`
+  }, {
+    bgImg: 'pic_dingxiangyuan.png',
+    triangleColor: `90px solid rgba(167,11,255,0.8)`,
+    avatarImg: 'avatar-uxin.png',
+    name: '丁香园·季昕华',
+    say: `“Ruby是我最早的天使投资人，和我一见如故，她总能在关键时刻帮助到你。”`
+  }, {
+    bgImg: 'pic_dingxiangyuan.png',
+    triangleColor: `90px solid rgba(167,11,255,0.8)`,
+    avatarImg: 'avatar-uxin.png',
+    name: '丁香园·季昕华',
+    say: `“Ruby是我最早的天使投资人，和我一见如故，她总能在关键时刻帮助到你。”`
+  }, {
+    bgImg: 'pic_dingxiangyuan.png',
+    triangleColor: `90px solid rgba(167,11,255,0.8)`,
+    avatarImg: 'avatar-uxin.png',
+    name: '丁香园·季昕华',
+    say: `“Ruby是我最早的天使投资人，和我一见如故，她总能在关键时刻帮助到你。”`
+  }, {
+    bgImg: 'pic_dingxiangyuan.png',
+    triangleColor: `90px solid rgba(167,11,255,0.8)`,
+    avatarImg: 'avatar-uxin.png',
+    name: '丁香园·季昕华',
+    say: `“Ruby是我最早的天使投资人，和我一见如故，她总能在关键时刻帮助到你。”`
+  }, {
+    bgImg: 'pic_dingxiangyuan.png',
+    triangleColor: `90px solid rgba(167,11,255,0.8)`,
+    avatarImg: 'avatar-uxin.png',
+    name: '丁香园·季昕华',
+    say: `“Ruby是我最早的天使投资人，和我一见如故，她总能在关键时刻帮助到你。”`
+  }, {
+    bgImg: 'pic_dingxiangyuan.png',
+    triangleColor: `90px solid rgba(167,11,255,0.8)`,
+    avatarImg: 'avatar-uxin.png',
+    name: '丁香园·季昕华',
+    say: `“Ruby是我最早的天使投资人，和我一见如故，她总能在关键时刻帮助到你。”`
+  }];
+  let resTpl = '';
+  partnerData.forEach((item, index) => {
+    let elTpl = `
+      <div class="swiper-slide" data-swiper-slide-index="${index}">
+        <div class="partner-pic">
+          <img class="partner-pic-img" src="/statics/${item.bgImg}" alt="" data-swiper-parallax="-300" style="transition-duration: 750ms;">
+          <div style="border-bottom: ${item.triangleColor};" class="triangle-svg" data-swiper-parallax="-200" data-swiper-parallax-duration="600" style="transition-duration: 600ms;"></div>
+        </div>
+        <div class="partner-item-info">
+          <div class="user-say" data-swiper-parallax-y="-30" data-swiper-parallax-opacity="0.2" data-swiper-parallax-duration="600" style="transition-duration: 600ms;">
+            ${item.say}
+          </div>
+          <div class="user-title" data-swiper-parallax-y="30" data-swiper-parallax-opacity="0.2" data-swiper-parallax-duration="800" style="transition-duration: 800ms;">
+            <div class="user-avatar">
+              <img src="/statics/${item.avatarImg}" alt="">
+            </div>
+            <div class="user-name">
+              ${item.name}
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+    resTpl += elTpl;
+  });
+  $('.partner-container .swiper-wrapper').html(resTpl);
+}
 $(function () {
   
   $(window).scrollTop(0)
@@ -98,7 +198,7 @@ $(function () {
     $("#teamInfo .team-info").html(html)
     showDialog('teamInfo')
   })
-  
+  // values轮播控制实例
   var valuesSwiper = new Swiper('.values-container', {
     effect: 'fade',
     loop: true,
@@ -142,6 +242,8 @@ $(function () {
       valuesSwiper.slideToLoop(index);
     });
   });
+  initPartner();
+  // partner轮播控制实例
   var tabPartner = new Swiper(".tab-partner", {
     loop: true,
     slidesPerView: 'auto',
@@ -177,6 +279,14 @@ $(function () {
       transitionEnd: function(){
         $(".partner-container .spinner").addClass("active")
       },
+      click: function(e) {
+        // if (e.target.parentNode.className == 'partner-pre-btn' || e.target.parentNode.className == 'partner-next-btn') {
+        //   return
+        // } else {
+        //   showDialog('partner-item');
+        //   console.log(e.target.parentNode.parentNode.dataset.swiperSlideIndex);  
+        // }
+      }
     },
   })
 
@@ -230,7 +340,5 @@ $(function () {
 
   })
 
-  
-  
 })
  
