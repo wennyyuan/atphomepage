@@ -1,10 +1,10 @@
 function showDialog(id) {
-  $("#" + id).addClass("show")
+  $("#" + id).addClass("show-dialog")
   $("body").addClass("ohidden");
 }
 
 function hideDialog(id) {
-  $("#" + id).removeClass("show")
+  $("#" + id).removeClass("show-dialog")
   $("body").removeClass("ohidden");
 }
 
@@ -157,16 +157,17 @@ function initPartner() {
     say: `“Ruby是我最早的天使投资人，和我一见如故，她总能在关键时刻帮助到你。”`
   }];
   let resTpl = '';
+  let logoEl = '';
+  let pnEl = '';
   partnerData.forEach((item, index) => {
     let elTpl = `
       <div class="swiper-slide" data-swiper-slide-index="${index}">
         <div class="partner-pic">
           <img class="partner-pic-img" src="/statics/${item.bgImg}" alt="" data-swiper-parallax="-300" style="transition-duration: 750ms;">
-          <div style="border-bottom: ${item.triangleColor};" class="triangle-svg" data-swiper-parallax="-200" data-swiper-parallax-duration="600" style="transition-duration: 600ms;"></div>
         </div>
         <div class="partner-item-info">
           <div class="user-say" data-swiper-parallax-y="-30" data-swiper-parallax-opacity="0.2" data-swiper-parallax-duration="600" style="transition-duration: 600ms;">
-            ${item.say}
+            <div class="say-content">${item.say}</div>
           </div>
           <div class="user-title" data-swiper-parallax-y="30" data-swiper-parallax-opacity="0.2" data-swiper-parallax-duration="800" style="transition-duration: 800ms;">
             <div class="user-avatar">
@@ -176,21 +177,41 @@ function initPartner() {
               ${item.name}
             </div>
           </div>
+          <div class="partner-more-btn">了解更多</div>
         </div>
       </div>
     `;
+    let logoTpl = `
+      <div class="swiper-slide" data-swiper-slide-index="${index}">
+        <img src="/statics/p${index+1}-1.webp" class="not-sel">
+        <img class="sel" src="/statics/p${index+1}-2.webp" alt="">
+      </div>
+    `;
+    let pnTpl = `
+      <div data-vpid="${index+1}" class="partner-p-item pn${index+1}"></div>
+    `;
     resTpl += elTpl;
+    logoEl += logoTpl;
+    pnEl += pnTpl;
   });
+  // 插入图文
   $('.partner-container .swiper-wrapper').html(resTpl);
+  // 插入logo轮播
+  $('.tab-partner .swiper-wrapper').html(logoEl);
+  $('.pn-box').html(pnEl);
 }
+
+
 $(function () {
-  
+  showDialog('partner-item')
+
+
   $(window).scrollTop(0)
   $(".nav-btn").click(function () {
     showDialog('nav')
   })
   $("a.close").click(function () {
-    var id = $(this).parents(".layer").attr("id");
+    var id = $(this).parents().attr("id");
     hideDialog(id)
   })
   $(".member-list li").click(function () {
@@ -229,7 +250,7 @@ $(function () {
         document.querySelectorAll(".value-p-item").forEach(item=>{
           item.style = '';
         });
-        $(`.vp${this.realIndex+1}`)[0].style = 'background:#A5B93F';
+        $(`.vp${this.realIndex+1}`)[0].style = 'background:#A5B93F; width: 50px';
       },
       transitionEnd: function(){
         $(".values-container .spinner").addClass("ac");
@@ -275,6 +296,10 @@ $(function () {
     on: {
       transitionStart: function(){
         $(".partner-container .spinner").removeClass("active")
+        document.querySelectorAll(".partner-p-item").forEach(item=>{
+          item.style = '';
+        });
+        $(`.pn${this.realIndex+1}`)[0].style = 'background:#A5B93F; width: 50px';
       },
       transitionEnd: function(){
         $(".partner-container .spinner").addClass("active")

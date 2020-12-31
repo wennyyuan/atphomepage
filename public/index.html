@@ -16,6 +16,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" /> 
   <link rel="stylesheet" type="text/css" href="/css/swiper.min.css" /> 
   <link rel="stylesheet" type="text/css" href="/css/index-new.css" /> 
+  <link rel="stylesheet" type="text/css" href="/css/mobile.css" /> 
+  <link rel="stylesheet" type="text/css" href="/css/pc.css" /> 
   <link rel="stylesheet" href="/css/bg.css" /> 
   <style type="text/css">
 			@font-face {
@@ -40,6 +42,7 @@
     <a href="javascript:;">About</a> 
     <a href="javascript:;">Team</a> 
     <a href="javascript:;">Values</a> 
+    <a href="javascript:;">Partners</a> 
     <a href="javascript:;">Contact</a> 
    </nav> 
   </div> 
@@ -386,13 +389,13 @@
           </svg> 
           </div> 
           <div id="pc" class="row justify-content vp-box"> 
-          <div data-vpid="1" class="value-p-item vp1"></div> 
-          <div data-vpid="2" class="value-p-item vp2"></div> 
-          <div data-vpid="3" class="value-p-item vp3"></div> 
-          <div data-vpid="4" class="value-p-item vp4"></div> 
-          <div data-vpid="5" class="value-p-item vp5"></div> 
-          <div data-vpid="6" class="value-p-item vp6"></div> 
-          </div> 
+            <div data-vpid="1" class="value-p-item vp1"></div> 
+            <div data-vpid="2" class="value-p-item vp2"></div> 
+            <div data-vpid="3" class="value-p-item vp3"></div> 
+            <div data-vpid="4" class="value-p-item vp4"></div> 
+            <div data-vpid="5" class="value-p-item vp5"></div> 
+            <div data-vpid="6" class="value-p-item vp6"></div> 
+          </div>
           <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span> 
         </div>
       </div> 
@@ -402,27 +405,16 @@
       <div class="title animate-scroll active" id="partners">
         <h2><img data-src="/statics/partners.svg" alt=""></h2>
       </div>
+      <!-- 轮播logo -->
       <div class="partner-wrapper animate-scroll active">
         <div class="swiper-container tab-partner swiper-container-initialized swiper-container-horizontal">
           <div class="swiper-wrapper" style="transition-duration: 750ms;">
-            <div class="swiper-slide" data-swiper-slide-index="0"><img data-src="/statics/p1-1.webp" class="not-sel"> <img class="sel" src="/statics/p1-2.webp" alt=""></div>
-            <div class="swiper-slide" data-swiper-slide-index="1"><img data-src="/statics/p2-1.webp" class="not-sel"> <img class="sel" src="/statics/p2-2.webp" alt=""></div>
-            <div class="swiper-slide" data-swiper-slide-index="2"><img data-src="/statics/p3-1.webp" class="not-sel"> <img class="sel" src="/statics/p3-2.webp" alt=""></div>
-            <div class="swiper-slide" data-swiper-slide-index="3"><img data-src="/statics/p4-1.webp" class="not-sel"> <img class="sel" src="/statics/p4-2.webp" alt=""></div>
-            <div class="swiper-slide" data-swiper-slide-index="4"><img data-src="/statics/p5-1.webp" class="not-sel"> <img class="sel" src="/statics/p5-2.webp" alt=""></div>
-            <div class="swiper-slide" data-swiper-slide-index="5"><img data-src="/statics/p6-1.webp" class="not-sel"> <img class="sel" src="/statics/p6-2.webp" alt=""></div>
-            <div class="swiper-slide" data-swiper-slide-index="6"><img data-src="/statics/p7-1.webp" class="not-sel"> <img class="sel" src="/statics/p7-2.webp" alt=""></div>
-            <div class="swiper-slide" data-swiper-slide-index="7"><img data-src="/statics/p8-1.webp" class="not-sel"> <img class="sel" src="/statics/p8-2.webp" alt=""></div>
-            <div class="swiper-slide" data-swiper-slide-index="8"><img data-src="/statics/p9-1.webp" class="not-sel"> <img class="sel" src="/statics/p9-2.webp" alt=""></div>
-            <div class="swiper-slide" data-swiper-slide-index="9"><img data-src="/statics/p10-1.webp" class="not-sel"> <img class="sel" src="/statics/p10-2.webp" alt=""></div>
-            <div class="swiper-slide" data-swiper-slide-index="9"><img data-src="/statics/p11-1.webp" class="not-sel"> <img class="sel" src="/statics/p11-2.webp" alt=""></div>
-            <div class="swiper-slide" data-swiper-slide-index="9"><img data-src="/statics/p12-1.webp" class="not-sel"> <img class="sel" src="/statics/p12-2.webp" alt=""></div>
           </div>
           <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
         </div>
         <div class="swiper-container partner-container swiper-container-fade swiper-container-initialized swiper-container-horizontal">
           <div class="swiper-wrapper" style="transition-duration: 750ms;"></div>
-          <div class="partner-pre-btn">
+          <div id="pc" class="partner-pre-btn">
             <?xml version="1.0" encoding="UTF-8"?>
             <svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -444,7 +436,7 @@
                 </g>
             </svg>
           </div>
-          <div class="partner-next-btn">
+          <div id="pc" class="partner-next-btn">
             <?xml version="1.0" encoding="UTF-8"?>
             <svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -467,6 +459,8 @@
             </svg>
           </div>
         <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+      </div>
+      <div id="pc" class="row justify-content pn-box"> 
       </div>
     </div> 
     <!-- 地址模块 -->
@@ -502,6 +496,7 @@
       <li> <a href="javascript:;">About</a> </li> 
       <li> <a href="javascript:;">Team</a> </li> 
       <li> <a href="javascript:;">Values</a> </li> 
+      <li> <a href="javascript:;">Partners</a> </li> 
       <li> <a href="javascript:;">Contact</a> </li> 
     </ul> 
     <a href="javascript:;" class="close">&nbsp;</a> 
@@ -510,8 +505,36 @@
     <div class="team-info"></div> 
     <a href="javascript:;" class="close"></a> 
   </div>
-  <div class="layer" id="partner-item"> 
-    <div class="partner-item-info"></div> 
+  <div class="partner-item-layer" id="partner-item"> 
+    <div class="partner-item-desc-box col">
+      <div class="partner-item-logo">
+        <img src="/statics/p1-1.webp" />
+      </div>
+      <div class="desc-main">
+        <div class="desc-section-box">
+          <section class="desc-section">UCloud （优刻得科技股份有限公司）是中立、安全的云计算服务平台，坚持中立，不涉足客户业务领域。公司自主研发IaaS、PaaS、大数据流通平台、AI服务平台等一系列云计算产品，并深入了解互联网、传统企业在不同场景下的业务需求，提供公有云、混合云、私有云、专有云在内的综合性行业解决方案。</section>
+          <section class="desc-section">2020年1月，UCloud优刻得（股票简称：优刻得，股票代码：688158）正式登陆科创板，成为中国云计算第一股，同时成为了中国A股市场首家“同股不同权” 的上市企业，开创了中国A股资本市场及公司治理的先河。 </section>
+        </div>
+        <div class="col">
+          <div class="partner-desc-right-box">
+            <div class="partner-desc-title">创业者</div>
+            <div class="partner-desc-value">value</div>
+          </div>
+          <div class="partner-desc-right-box">
+            <div class="partner-desc-title">创业成员</div>
+            <div class="partner-desc-value">value</div>
+          </div>
+          <div class="partner-desc-right-box">
+            <div class="partner-desc-title">行业</div>
+            <div class="partner-desc-value">value</div>
+          </div>
+          <div class="partner-desc-right-box">
+            <div class="partner-desc-title">官网</div>
+            <div class="partner-desc-value">value</div>
+          </div>
+        </div>
+      </div>
+    </div> 
     <a href="javascript:;" class="close"></a> 
    </div>  
   <script src="/js/star.js"></script> 
@@ -520,5 +543,6 @@
   <script src="/js/jquery.js" type="text/javascript" charset="utf-8"></script> 
   <script src="/js/swiper.min.js" type="text/javascript" charset="utf-8"></script> 
   <script src="/js/main-new.js" type="text/javascript" charset="utf-8"></script>  
+  <script src="/js/partner-data.js" type="text/javascript" charset="utf-8"></script>  
  </body>
 </html>
