@@ -315,8 +315,8 @@ $(function () {
     },
   })
 
-  tabPartner.controller.control = partnerContainer;
-  partnerContainer.controller.control = tabPartner;
+  // tabPartner.controller.control = partnerContainer;
+  // partnerContainer.controller.control = tabPartner;
 
   $(".nav li").click(function () {
     hideDialog('nav')
