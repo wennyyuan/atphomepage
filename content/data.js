@@ -1,0 +1,490 @@
+module.exports = {
+    about_1_1: {
+        cn: 'Atypical Ventures 是关注高科技中早期创业公司的风险基金。基金创始人卢蓉（Ruby Lu）从 03 年从事风险投资至今主导了二十余笔投资，其中有 8 家公司成功上市，即快手、UCloud、奇安信、Kodiak Science、当当网、易车、优信、文思海辉；4 个并购退出，即 Musical.ly，乐动力，优雅100，渡鸦科技；还有若干超级独角兽，包括ECarX亿咖通、好大夫、丁香园、Omada、OrthoBullets等。',
+        en: 'Atypical Ventures is a venture capital firm focused on early and growth stage high-tech startup companies. The founder, Ruby Lu, has led more than 20 investments since 2003. 8 of which have gone public including Kuaishou, ucloud, Qianxin, Kodiak Science, Dangdang, Yiche, Uxin, and Pactera. Another 4 successful exists were through M&A. In addition, some of her portfolio companies have grown to decacorns,In addition, some of her investments have become super unicorns,e.g., Good Doctor, Dingxiangyuan, ECarX, Omada, OrthoBullets, etc.'
+    },
+    about_1_2: {
+        cn: 'Atypical寓意敢为不同。Atypical Ventures扎根科技领域，希望秉持深入研究的视角和狙击手精神，以勤奋、踏实的态度服务不安于现状的卓越另类和有巨大抱负的理想主义者，同时陪伴会做管理、懂商业的技术极客一同锤炼坚韧意志，创造更大商业价值与社会价值。',
+        en: 'Atypical means taking unusual ways bravely. We are rooted in science and technology, hoping to uphold the perspective of deep research and the spirit of sniper. We use a diligent and practical attitude to serve outstanding outliers and great aspiring idealists who are not satisfied with the status quo. We want to accompany with technical geeks who understand business and management to create greater commercial and social value.'
+    },
+    about_1_3: {
+        cn: 'Atypical Ventures期待结识最优秀创业者，和他们一同开拓更多真实价值的疆域、解决行业亟待解决的问题，辅助他们实现理想，让世界变得更好。',
+        en: "Apypical Ventures look forward to understanding the best entrepreneurs, working with them to explore more territory with value, solving the industry's urgent problems, and assisting them in realizing their dreams and making the world a better place."
+    },
+    team: {
+        team_title: {
+            cn: '背景多样的创投团队',
+            en: 'A diversified venture capital team'
+        },
+        Ruby: {
+            desc: {
+                cn: '我喜欢大家叫我 Ruby 而不是卢总，因为 Ruby 是我在初中时给自己起的名字。我觉得直接叫名字，表达了我们之间平等且直接沟通的开始！',
+                en: 'I like everyone to call me Ruby instead of Boss Lu, because Ruby is the name I gave myself in junior high school. I think it’s the beginning of equal and direct communication between us by calling name directly.'
+            },
+            work_exp: {
+                exp_title: {
+                    cn: '创建 Atypical Ventures 之前：',
+                    en: 'Before starting Atypical Ventures:'
+                },
+                exp_1: {
+                    name: {
+                        cn: 'DCM 中国联合创始人',
+                        en: 'Co-founder of DCM China '
+                    },
+                    time: {
+                        cn: '（12 年）',
+                        en: '(12 years)'
+                    }
+                },
+                exp_2: {
+                    name: {
+                        cn: '高盛投行部',
+                        en: 'Goldman Sachs Investment Banking Department '
+                    },
+                    time: {
+                        cn: '（7 年）',
+                        en: '(7 years)'
+                    }
+                }
+            },
+            portfolios: {
+                title: {
+                    cn: 'VC/天使代表作：',
+                    en: 'VC/Angel Portfolios:'
+                },
+                list: [
+                    {
+                        name: {
+                            cn: '快手',
+                            en: 'Kuaishou'
+                        },
+                        desc: {
+                            cn: '（领投B轮，董事：B轮-2016）',
+                            en: '(leading round B, director: round B-2016)'
+                        }
+                    },
+                    {
+                        name: {
+                            cn: '丁香园',
+                            en: 'DXY '
+                        },
+                        desc: {
+                            cn: '（领投A轮，董事：A轮-2016）',
+                            en: '(Leading round A, Director: Round A-2016)'
+                        }
+                    },
+                    {
+                        name: {
+                            cn: '好大夫',
+                            en: 'Haodf'
+                        },
+                        desc: {
+                            cn: '（领投A轮，董事：A轮-2016）',
+                            en: '(Leading round A, Director: Round A-2016)'
+                        }
+                    },
+                    {
+                        name: {
+                            cn: '优刻得Ucloud',
+                            en: 'Ucloud'
+                        },
+                        desc: {
+                            cn: '(A 轮，科创板：688158)',
+                            en: '(A round, Sci-tech Innovation Board: 688158)'
+                        }
+                    },
+                    {
+                        name: {
+                            cn: '万学教育',
+                            en: 'Wanxue Education'
+                        },
+                        desc: {
+                            cn: '（领投C轮，董事：C轮-2016）',
+                            en: '(Leading round C, Director: Round C-2016)'
+                        }
+                    },
+                    {
+                        name: {
+                            cn: '优信二手车',
+                            en: 'Uxin Group'
+                        },
+                        desc: {
+                            cn: '（领投A轮，Nasdaq：Uxin，董事：A轮至今）',
+                            en: '(Leading round A, Nasdaq: Uxin, Director: A round till now)'
+                        }
+                    },
+                    {
+                        name: {
+                            cn: '易车',
+                            en: 'Yiche'
+                        },
+                        desc: {
+                            cn: '（领投B轮，NYSE：BITA，董事：B轮-2012）',
+                            en: '(Leading round B, NYSE: BITA, Director: Round B-2012)'
+                        }
+                    },
+                    {
+                        name: {
+                            cn: '当当',
+                            en: 'Dangdang'
+                        },
+                        desc: {
+                            cn: '（领投C轮，NYSE：Dang，董事：C轮-2016）',
+                            en: '(Leading round C, NYSE: Dang, Director: Round C-2016)'
+                        }
+                    },
+                    {
+                        name: {
+                            cn: '文思海辉（文思创新）',
+                            en: 'Pactera (Pactera Innovation) '
+                        },                  
+                        desc: {
+                            cn: '领投A轮，NYSE：VIT，董事：A轮-2014年，私有化卖给黑石集团）',
+                            en: '(Leading round A, NYSE: VIT, Director: A round-2014, privatized and sold to Blackstone Group)'
+                        }
+                    },
+                    {
+                        name: {
+                            cn: '奇安信',
+                            en: 'Qi-anxin'
+                        },
+                        desc: {
+                            cn: '（A轮）',
+                            en: '(Round A)'
+                        }
+                    },
+                    {
+                        name: {
+                            cn: 'Kodiak',
+                            en: 'Kodiak'
+                        },
+                        desc: {
+                            cn: '（天使，Nasdaq: KOD）',
+                            en: '(Round Angel, Nasdaq: KOD)'
+                        }
+                    },
+                    {
+                        name:{
+                            cn: 'Musically',
+                            en: 'Musically'
+                        },
+                        desc: {
+                            cn: 'C 轮，字节跳动收购）',
+                            en: '(C round, acquired by ByteDance)'
+                        }
+                    },
+                    {
+                        name: {
+                            cn: '渡鸦',
+                            en: 'Raventech'
+                        },
+                        desc: {
+                            cn: '（A轮，百度收购）',
+                            en: '(A round, acquired by Baidu)'
+                        }
+                    },
+                    {
+                        name: {
+                            cn: '乐动力',
+                            en: 'Ledongli'
+                        },
+                        desc: {
+                            cn: '（A轮，阿里收购）',
+                            en: '(A round, acquired by Ali)'
+                        }
+                    },
+                    {
+                        name: {
+                            cn: 'eCarX',
+                            en: 'eCarX'
+                        },
+                        desc: {
+                            cn: '（天使联合创始人）',
+                            en: '(angel co-founder)'
+                        }
+                    },
+                ]
+            },
+            edu_exp: {
+                title: {
+                    cn: '教育经历：',
+                    en: 'Educational Experience:'
+                },
+                list: [{
+                    name: {
+                        cn: '经济学学士学位 University of Maryland, Baltimore County',
+                        en: 'Bachelor of Economics，University of Maryland, Baltimore County'
+                    },
+                    desc: {
+                        cn: '（马里兰大学巴尔的摩郡分校）',
+                        en: ''
+                    }
+                }, {
+                    name: {
+                        cn: '经济硕士学位 Johns Hopkins University',
+                        en: 'Master of Economics，Johns Hopkins University'
+                    },
+                    desc: {
+                        cn: '约翰斯&middot;霍普金斯大学）',
+                        en: ''
+                    }
+                }]
+            }
+        },
+        chao: {
+            desc: {
+                cn: '我是一个创业者。我创办了乐动力，这是一个运动工具和社区。在五年的创业历程里我体验过高速成长的极度喜悦，也经历过团队分裂的至暗时刻，曾被顶级VC青睐，也遭遇过近百投资人的拒绝。创业者的苦与乐，我懂的！ ',
+                en: 'I am an investor and an entrepreneur. I founded Ledongli in 2012, and the company was acquired by Alibaba fully in 2018. During the six years of entrepreneurship, I have gained a lot of pain and happiness. I am also a product manager who loves coding with more than ten years of experience in Internet product development. I hope to contribute my entrepreneurial experience and product insights to give entrepreneurs some help.'
+            },
+            work_exp: {
+                title: {
+                    cn: '主要工作经历：',
+                    en: 'Main Working Experience:'
+                },
+                list: [{
+                    name: {
+                        cn: 'Google',
+                        en: 'Google'
+                    },
+                    desc: {
+                        cn: '08年至11年，先后担任工程师和产品经理。在北京和加州办公室轮岗，参与了问答社区、垂直搜索和手机广告等国际化项目。',
+                        en: 'From 2008 to 2011, served as engineer and product manager in Google successively. Chao Rotated in the Beijing and California offices and participated in international projects such as Q&A communities, vertical search and mobile advertising.'
+                    }
+                }, {
+                    name: {
+                        cn: '乐动力',
+                        en: 'Ledongli'
+                    },
+                    desc: {
+                        cn: '2012年至2018年，任CEO。乐动力是超百万日活的运动社区，于18年被阿里巴巴全资收购。',
+                        en: 'From 2012 to 2018, Chao served as CEO in Ledongli. Ledongli is a sports community with over one million daily activation, which was acquired by Alibaba fully in 2018.'
+                    }
+                }, {
+                    name: {
+                        cn: '阿里体育',
+                        en: 'Alibaba Sports'
+                    },
+                    desc: {
+                        cn: '2018年至2019年，任CTO。管理技术和产品团队，负责产品研发。',
+                        en: 'From 2018 to 2019，Chaoserved as CTO in Alibaba Sports. He managed technical and product team and was responsible for product development.'
+                    }
+                }]
+            },
+            self_account: {
+                cn: '我是极度理性又非常闷骚的 IT 男，常常深度自省，偶尔冷笑话。由于做过运动产品，所有运动项目我都会一点儿，但理论知识远远大于实践。我的缺点是沟通着急，很爱抢话，遇到这种情况麻烦大家凶猛地怼我。',
+                en: 'I am an extremely rational and very mentally sexy IT man, often introspecting deeply, and occasionally making cold jokes. Since I have done sports products, I know a little about all sports, but far better in the theory side instead of practice. My shortcoming is that I am anxious to communicate, and I like to snatch conversations. When this happens, please let me know!'
+            }
+        },
+        Shawn: {
+            descList: [
+                {
+                    desc: {
+                        cn: '我是Shawn，大家也可以直接叫我“少帅”，这是真名，而不是昵称哦。我一直是个内心很叛逆的人，当大学同学都在准备银行、国企甚至公务员考试时，我就向腾讯投递了简历，跑去深圳去了，因为觉得互联网公司才好玩。再后来去华为2012实验室，做智能终端新的人机交互系统，也是同样的追求。我渴望创造新的东西，不仅能带来成就感，也能推动科技进步。我有过主导创业的经历，这让我对创业者的角色有更多的理解，也让我找到了投资这份最适合自己的事业，让我可以真正帮助到创业者。',
+                        en: 'I’m Shawn. You can also call me "Shuai" , which means young marshal in Chinese. This is my real name, not a nickname. I have always been a rebellious person. When my college classmates were preparing for bank, state-owned enterprises and even civil service exams, I submitted my resume to Tencent and moved to Shenzhen, just because I thought Internet companies were fun. For the same reason, I went to the Huawei 2012 Laboratory to build a new human-computer interaction system for smart terminals. I am eager to create new things that not only bring a sense of accomplishment, but also promote technological progress. I have had the experience of leading entrepreneurship, which gave me a deeper understanding of the role of entrepreneurs, and also allowed me to find the business that suits me best. Therefore, I can really help entrepreneurs.'
+                    }
+                },
+                {
+                    desc: {
+                        cn: '作为非典型理工男，我私底下喜欢潮牌，喜欢电影，看街舞，也追星。平时爱好篮球，从初中就是科比死粉。希望未来做一名制片人，能够做出好的电影，好的内容。',
+                        en: 'As an atypical IT man, privately, I like street fashion, movies, street dance, and chasing star. I love basketball and I have been a huge fan of Kobe Bryant since I was in junior high school. I hope to be a producer in the future and be able to create good movies with excellent content.'
+                    }
+                },
+                {
+                    desc: {
+                        cn: '我关注社交文娱，产业互联网领域投资。',
+                        en: 'I am concerned about investment opportunities in social entertainment and industrial Internet.'
+                    }
+                }
+            ]
+        },
+        Wei: {
+            descList: [{
+                desc: {
+                    cn: '我在中国科学院化学研究所取得理学博士学位，当时的研究方向是新能源材料制备和器件设计。毕业论文的idea来源于一次洗澡时的灵光一现。幸运的是，我把实现了出来并发表了paper。我感谢过去的科研和工作经历，无数次重复 “发现问题，提出假设，实验验证，得出结论”的训练，让我具备了独立思考和分析问题的技能和经验。',
+                    en: 'I obtained my PhD degree in Chemistry from the Institute of Chemistry, Chinese Academy of Sciences. At that time, my research direction was the production of new energy materials and device design. The idea of the graduation thesis comes from aha moments in the shower. Fortunately, I made it and published it. I am grateful for my past scientific research and work experience. I have repeated the training of "discovering problems, proposing hypotheses, doing verifications, and drawing conclusions" for countless times, so that I have the skills and experience to independently think and analyze problems.'
+                }
+            },{
+                desc: {
+                    cn: '现在，这些经历持续助力我每天的工作，包括：从海量的raw data中筛选高价值数据源，拓展行业衡量指标，迭代权重分配，在实践中反思前瞻性判断的偏差原因，不断优化系统思维构架，提升投资工作中判断的合理性。',
+                    en: 'Now, these experiences continually help with my daily work, including screening high-value data sources from massive raw ones, expanding industry measurement indicators, iterating weight distribution. Moreover, I reflect on the reasons for the deviation of forward-looking judgments in practice, continuously optimizing the system thinking structure, and enhancing the rationality of judgment in investment work.'
+                }
+            },{
+                desc: {
+                    cn: '我认为，行业研究和投资决策应是相互助力的，而决策系统的进化最最关键的，是从创业者宝贵的实践经验中得到反哺。而我，珍惜每一次和创业者们交流、学习的机会，并期待未来，能在我热爱的投资工作中，遇见更多atypical的你！',
+                    en: 'I believe that industry research and investment decision-making help with each other, and the most important thing for the evolution of the decision-making system is to get back-feeding from the valuable practical experience entrepreneurs give. I cherish every opportunity to communicate and learn from entrepreneurs, and look forward to meeting more atypical guys in the investment work I love in the future!'
+                }
+            },{
+                desc: {
+                    cn: '关注科技领域的投资机会。',
+                    en: 'I concern about the investment opportunities in the technology sector.'
+                }
+            }]
+        },
+        Will: {
+            descList: [{
+                desc: {
+                    cn: '毕业于东北财经大学，加拿大特许会计师。曾在安永会计师事务所上海分所任高级审计师，其后十余年在上海及香港两地工作。先后在云月投资、香港惠理集团、远东宏信及新加坡四维资本从事私募股权投资工作。既负责过项目投资及投后管理，亦负责过基金财务与合规工作。期间协助不同类型的被投企业梳理财务职能，参加董事会议及协助被投企业的上市工作。',
+                    en: 'Graduated from Dongbei University of Finance and Economics, I’m a licensed chartered accountant in Canada. I was a senior auditor in the Shanghai branch of Ernst & Young and worked in Shanghai and Hong Kong for more than ten years. After that, I successively engaged in private equity investment in Yunyue Capital, Hong Kong Value Partners Group, Far East Horizon Capital and Singapore Siwei Capital. Not only was responsible for project investment and post-investment management, I was also responsible for finance work and compliance work. During the period, I contributed in different types of invested companies, I helped them in sorting out financial functions, participating in board meetings and assisting in the listing of invested companies.'
+                }
+            },{
+                desc: {
+                    cn: '我喜欢挑战的户外运动，例如单板滑雪、攀岩， 也享受一个人的旅行。',
+                    en: 'I like challenging outdoor sports, such as snowboarding, rock climbing. I love traveling alone too.'
+                }
+            },{
+                desc: {
+                    cn: '目前在Atypical Ventures主要负责财务、合规、法务及运营工作，并且参与被投企业的投后管理工作。',
+                    en: 'At Atypical Ventures, I am mainly responsible for finance, compliance, legal affairs and operations, and participation in the post-investment management of the invested companies.'
+                }
+            }]
+        }
+    },
+    values: {
+        list: [{
+            name: {
+                cn: '真实不装',
+                en: 'Keep real'
+            },
+            descList: [{
+                desc: {
+                    cn: '真实，简单，直接，好沟通，做朴素和原生态的表达',
+                    en: 'Real, simple, straightforward, easy to communicate, direct expression'
+                }
+            }, {
+                desc: {
+                    cn: '表里如一，所言即所想',
+                    en: 'What we say corresponds to what we think'
+                }
+            }, {
+                desc: {
+                    cn: '不“装懂”，保持空杯和谦和',
+                    en: 'Humble and modest'
+                }
+            }]
+        },{
+            name: {
+                cn: '值得信赖',
+                en: 'Trustworthy'
+            },
+            descList: [{
+                desc: {
+                    cn: '言语客观，不浮夸',
+                    en: 'Objective, and not ostentatious'
+                }
+            }, {
+                desc: {
+                    cn: '有契约精神，不过度承诺',
+                    en: 'With the spirit of contract and never be over-promised'
+                }
+            }]
+        },{
+            name: {
+                cn: '创业精神',
+                en: 'Entrepreneurship Spirit'
+            },
+            descList: [{
+                desc: {
+                    cn: '用创业的心态做基金',
+                    en: 'Fund with entrepreneurial mentality/states of mind'
+                }
+            },{
+                desc: {
+                    cn: '忘掉过去的成功',
+                    en: 'Forget about the past achievements'
+                }
+            },{
+                desc: {
+                    cn: '做最基础的工作',
+                    en: 'Enjoy the most basic work'
+                }
+            },{
+                desc: {
+                    cn: '节省，务实，接地气',
+                    en: 'Economical, practical, and grounded'
+                }
+            }]
+        },{
+            name: {
+                cn: '内在驱动',
+                en: 'Self-motivated'
+            },
+            descList: [{
+                desc: {
+                    cn: '不做表面的强势和攻击性',
+                    en: 'Never be superficially aggressive,'
+                }
+            }, {
+                desc: {
+                    cn: '而是有强大的内在志向',
+                    en: 'With strongest ambitions,'
+                }
+            }, {
+                desc: {
+                    cn: '对成功保持高标准',
+                    en: 'Set a high standard for success,'
+                }
+            },{
+                desc: {
+                    cn: '寻找同样饥渴的创业者',
+                    en: 'Pursue entrepreneurs with equal eager'
+                }
+            }]
+        },{
+            name: {
+                cn: '服务态度',
+                en: 'Service attitude'
+            },
+            descList: [{
+                desc: {
+                    cn: '找到比我们更牛的创业者',
+                    en: 'We are thirst for the strongest entrepreneurs and serve them well'
+                }
+            }, {
+                desc: {
+                    cn: '服务好他们',
+                    en: ''
+                }
+            }, {
+                desc: {
+                    cn: '竭尽全力帮助创业公司',
+                    en: 'Pay every effort to assist start-ups'
+                }
+            }, {
+                desc: {
+                    cn: '给钱不添乱',
+                    en: 'Provide money without making troubles'
+                }
+            }]
+        },{
+            name: {
+                cn: '灵活快速',
+                en: 'Flexible and efficient'
+            },
+            descList: [{
+                desc: {
+                    cn: '把两周的决策压缩到一周做完',
+                    en: 'Shorten the decision time by half'
+                }
+            }, {
+                desc: {
+                    cn: '做最快的响应 最灵活的决策',
+                    en: 'Make the fastest responses and the most flexible decisions'
+                }
+            }]
+        }]
+    },
+    contact: {
+        address: {
+            cn: '北京市光华国际ab座7层wework',
+            en: 'Tower AB Office Park, 7th Floor, 10 Jingtong West Road, Chaoyang District, Beijing, 11, 100020, China.'
+        },
+        desc: {
+            cn: '融资计划，合作机会，求职应聘',
+            en: 'Financing plan, Cooperation opportunities, Job application'
+        },
+        email: {
+            cn: '请联系',
+            en: 'Please contact with '
+        }
+    }
+}

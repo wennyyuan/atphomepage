@@ -29,22 +29,42 @@
  </head> 
  <body> 
   <div class="header"> 
-   <div class="logo">
-    <img data-src="/statics/logo.svg" alt="" />
-   </div> 
-   <div id="mobile" class="nav-btn"> 
-    <span></span> 
-    <span></span> 
-   </div> 
-   <!-- tab bar -->
-   <nav id="pc" class="pc-nav-btn-box row"> 
-    <a class="active" href="javascript:;">Home</a> 
-    <a href="javascript:;">About</a> 
-    <a href="javascript:;">Team</a> 
-    <a href="javascript:;">Values</a> 
-    <a href="javascript:;">Partners</a> 
-    <a href="javascript:;">Contact</a> 
-   </nav> 
+    <div class="logo">
+      <img data-src="/statics/logo.svg" alt="" />
+      <div id="pc" class="lang-box">
+        
+        
+          <div onclick="switchLang('en')" id="en-btn" class="lang-switch en">EN</div>
+        
+      </div>
+    </div>
+    <div id="mobile" style="display:flex;">
+      <div id="mobile" class="lang-box">
+        
+        
+          <div onclick="switchLang('en')" id="en-btn" class="lang-switch en">EN</div>
+        
+      </div>
+      <script>
+        const switchLang = function(type) {
+          window.location.href = `/${type}`;
+        }
+      </script>
+      <div id="mobile" class="nav-btn">
+        <span></span>
+        <span></span>
+      </div>
+    </div> 
+    <!-- tab bar -->
+    <nav id="pc" class="pc-nav-btn-box row"> 
+      <a class="active" href="javascript:;">Home</a> 
+      <a href="javascript:;">About</a> 
+      <a href="javascript:;">Team</a> 
+      <a href="javascript:;">Values</a> 
+      <!-- <a href="javascript:;">Partners</a>  -->
+      <a href="javascript:;">Contact</a> 
+    </nav> 
+    
   </div> 
   <!-- 首屏星空模块 -->
   <div class="front" id="home"> 
@@ -72,9 +92,9 @@
       <!-- <p>Atypical Ventures是关注中国TMT领域中早期创业公司的风险投资机构，单笔投资规模在100万美金到2000万美金。</p>
             <p>创始人卢蓉（Ruby Lu）是知名的风险投资人，狙击手风格，命中率高。在过去15年，她主导的20笔投资中有6个上市公司和5个并购退出，还有7个估值超过10亿美金的独角兽企业在继续成长。她主导的项目包括快手，优信、UCloud、丁香园、好大夫和亿咖通等。</p>
             <p>Atypical Ventures，敢为不同，期待与最勇敢的创业者相遇！</p> --> 
-      <p>Atypical Ventures 是关注高科技中早期创业公司的风险基金。基金创始人卢蓉（Ruby Lu）从 03 年从事风险投资至今主导了二十余笔投资，其中有 8 家公司成功上市，4 个并购退出。她的 IPO 项目包括：快手、UCloud、奇安信、Kodiak Science、当当网、易车、优信、文思海辉。此外她还投资了若干超级独角兽，包括好大夫、丁香园、ECarX、Omada、OrthoBullets等。</p> 
-      <p>Atypcial 寓意敢为不同。我们扎根科技领域，希望秉持深入研究的视角和狙击手精神，以勤奋、踏实的态度服务不安于现状的卓越另类和有巨大抱负的理想主义者，陪伴会管理、懂商业的技术极客一同锤炼坚韧意志，创造更大商业价值和社会价值。</p> 
-      <p>Atypical Ventures期待结识最优秀创业者，和他们一同开拓更多真实价值的疆域、解决行业亟待解决的问题，辅助他们实现理想，让世界变得更好。</p> 
+      <p>Atypical Ventures 是关注高科技中早期创业公司的风险基金。基金创始人卢蓉（Ruby Lu）从 03 年从事风险投资至今主导了二十余笔投资，其中有 8 家公司成功上市，即快手、UCloud、奇安信、Kodiak Science、当当网、易车、优信、文思海辉；4 个并购退出，即 Musical.ly，乐动力，优雅100，渡鸦科技；还有若干超级独角兽，包括ECarX亿咖通、好大夫、丁香园、Omada、OrthoBullets等。</p>
+      <p>Atypical寓意敢为不同。Atypical Ventures扎根科技领域，希望秉持深入研究的视角和狙击手精神，以勤奋、踏实的态度服务不安于现状的卓越另类和有巨大抱负的理想主义者，同时陪伴会做管理、懂商业的技术极客一同锤炼坚韧意志，创造更大商业价值与社会价值。</p> 
+      <p>Atypical Ventures期待结识最优秀创业者，和他们一同开拓更多真实价值的疆域、解决行业亟待解决的问题，辅助他们实现理想，让世界变得更好。</p>
       </div> 
     </div> 
     <div class="box about-box about-pc"> 
@@ -82,9 +102,9 @@
       <div class="about animate-scroll"> 
         <!-- <p>Atypical Ventures是关注中国TMT领域中早期创业公司的风险投资机构，单笔投资规模在100万美金到2000万美金。</p> --> 
         <!-- <p>创始人卢蓉（Ruby Lu）是知名的风险投资人，狙击手风格，命中率高。在过去15年，她主导的20笔投资中有6个上市公司和5个并购退出，还有7个估值超过10亿美金的独角兽企业在继续成长。她主导的项目包括快手，优信、UCloud、丁香园、好大夫和亿咖通等。</p> --> 
-        <p>Atypical Ventures 是关注高科技中早期创业公司的风险基金。基金创始人卢蓉（Ruby Lu）从 03 年从事风险投资至今主导了二十余笔投资，其中有 8 家公司成功上市，4 个并购退出。她的 IPO 项目包括：快手、UCloud、奇安信、Kodiak Science、当当网、易车、优信、文思海辉。此外她还投资了若干超级独角兽，包括好大夫、丁香园、ECarX、Omada、OrthoBullets等。</p> 
-        <p>Atypcial 寓意敢为不同。我们扎根科技领域，希望秉持深入研究的视角和狙击手精神，以勤奋、踏实的态度服务不安于现状的卓越另类和有巨大抱负的理想主义者，陪伴会管理、懂商业的技术极客一同锤炼坚韧意志，创造更大商业价值和社会价值。</p> 
-        <p>Atypical Ventures期待结识最优秀创业者，和他们一同开拓更多真实价值的疆域、解决行业亟待解决的问题，辅助他们实现理想，让世界变得更好。</p> 
+        <p>Atypical Ventures 是关注高科技中早期创业公司的风险基金。基金创始人卢蓉（Ruby Lu）从 03 年从事风险投资至今主导了二十余笔投资，其中有 8 家公司成功上市，即快手、UCloud、奇安信、Kodiak Science、当当网、易车、优信、文思海辉；4 个并购退出，即 Musical.ly，乐动力，优雅100，渡鸦科技；还有若干超级独角兽，包括ECarX亿咖通、好大夫、丁香园、Omada、OrthoBullets等。</p>
+        <p>Atypical寓意敢为不同。Atypical Ventures扎根科技领域，希望秉持深入研究的视角和狙击手精神，以勤奋、踏实的态度服务不安于现状的卓越另类和有巨大抱负的理想主义者，同时陪伴会做管理、懂商业的技术极客一同锤炼坚韧意志，创造更大商业价值与社会价值。</p> 
+        <p>Atypical Ventures期待结识最优秀创业者，和他们一同开拓更多真实价值的疆域、解决行业亟待解决的问题，辅助他们实现理想，让世界变得更好。</p>
       </div> 
       <!-- <div style="color: #fff;margin-bottom: 20px;" class="row space-around">
               <div class="col about-item">
@@ -123,7 +143,9 @@
     <div class="box"> 
       <div class="title animate-scroll" id="team"> 
       <h2><img data-src="/statics/team.svg" alt="" /></h2> 
-      <p class="sub-title">背景多样的创投团队</p> 
+      <p class="sub-title">
+        背景多样的创投团队
+      </p> 
       </div> 
       <div class="member-list animate-scroll"> 
       <ul> 
@@ -137,34 +159,61 @@
           </div> 
         </div> 
         <div class="intro"> 
-          <p>我喜欢大家叫我 Ruby 而不是卢总，因为 Ruby 是我在初中时给自己起的名字。我觉得直接叫名字，表达了我们之间平等且直接沟通的开始！</p> 
-          <h3>创建 Atypical Ventures 之前：</h3> 
-          <ul> 
-          <li>DCM 中国联合创始人 <span class="gray">（12年）</span></li> 
-          <li>高盛投行部<span class="gray">（7年）</span></li> 
+          <p>
+            我喜欢大家叫我 Ruby 而不是卢总，因为 Ruby 是我在初中时给自己起的名字。我觉得直接叫名字，表达了我们之间平等且直接沟通的开始！
+          </p> 
+          <h3>
+            创建 Atypical Ventures 之前：
+          </h3> 
+          <ul>
+          <li>DCM 中国联合创始人 <span class="gray">（12 年）</span></li> 
+          <li>高盛投行部 <span class="gray">（7 年）</span></li> 
           </ul> 
-          <h3>VC/天使代表作：</h3> 
-          <ul> 
-          <li>快手<span class="gray">（领投B轮，董事：B轮-2016）</span></li> 
-          <li>丁香园 <span class="gray">（领投A轮，董事：A轮-2016）</span></li> 
-          <li>好大夫 <span class="gray">（领投A轮，董事：A轮-2016）</span></li> 
-          <li>优刻得Ucloud<span class="gray"> (A 轮，科创板：688158)</span></li> 
-          <li>万学教育 <span class="gray">（领投C轮，董事：C轮-2016）</span></li> 
-          <li>优信二手车 <span class="gray">（领投A轮，Nasdaq：Uxin，董事：A轮至今）</span></li> 
-          <li>易车 <span class="gray">（领投B轮，NYSE：BITA，董事：B轮-2012）</span></li> 
-          <li>当当 <span class="gray">（领投C轮，NYSE：Dang，董事：C轮-2016）</span></li> 
-          <li>文思海辉（文思创新）<span class="gray">（领投A轮，NYSE：VIT，董事：A轮-2014年，私有化卖给黑石集团）</span></li> 
-          <li>奇安信 <span class="gray">（A轮）</span></li> 
-          <li>Kodiak <span class="gray">（天使，Nasdaq: KOD）</span></li> 
-          <li>Musically<span class="gray">（C 轮，字节跳动收购）</span></li> 
-          <li>渡鸦 <span class="gray">（A轮，百度收购）</span></li> 
-          <li>乐动力 <span class="gray">（A轮，阿里收购）</span></li> 
-          <li>eCarX <span class="gray">（天使联合创始人）</span></li> 
+          <h3>
+            VC/天使代表作：
+          </h3> 
+          <ul>
+            
+              <li>快手 <span class="gray">（领投B轮，董事：B轮-2016）</span></li> 
+            
+              <li>丁香园 <span class="gray">（领投A轮，董事：A轮-2016）</span></li> 
+            
+              <li>好大夫 <span class="gray">（领投A轮，董事：A轮-2016）</span></li> 
+            
+              <li>优刻得Ucloud <span class="gray">(A 轮，科创板：688158)</span></li> 
+            
+              <li>万学教育 <span class="gray">（领投C轮，董事：C轮-2016）</span></li> 
+            
+              <li>优信二手车 <span class="gray">（领投A轮，Nasdaq：Uxin，董事：A轮至今）</span></li> 
+            
+              <li>易车 <span class="gray">（领投B轮，NYSE：BITA，董事：B轮-2012）</span></li> 
+            
+              <li>当当 <span class="gray">（领投C轮，NYSE：Dang，董事：C轮-2016）</span></li> 
+            
+              <li>文思海辉（文思创新） <span class="gray">领投A轮，NYSE：VIT，董事：A轮-2014年，私有化卖给黑石集团）</span></li> 
+            
+              <li>奇安信 <span class="gray">（A轮）</span></li> 
+            
+              <li>Kodiak <span class="gray">（天使，Nasdaq: KOD）</span></li> 
+            
+              <li>Musically <span class="gray">C 轮，字节跳动收购）</span></li> 
+            
+              <li>渡鸦 <span class="gray">（A轮，百度收购）</span></li> 
+            
+              <li>乐动力 <span class="gray">（A轮，阿里收购）</span></li> 
+            
+              <li>eCarX <span class="gray">（天使联合创始人）</span></li> 
+            
           </ul> 
-          <h3>教育经历：</h3> 
+          <h3>
+            教育经历：
+          </h3> 
           <ul> 
-          <li>经济学学士学位 University of Maryland, Baltimore County<span class="gray">（马里兰大学巴尔的摩郡分校）</span> </li> 
-          <li>经济硕士学位 Johns Hopkins University<span class="gray">（约翰斯&middot;霍普金斯大学）</span></li> 
+            
+              <li>经济学学士学位 University of Maryland, Baltimore County <span class="gray">（马里兰大学巴尔的摩郡分校）</span> </li> 
+            
+              <li>经济硕士学位 Johns Hopkins University <span class="gray">约翰斯&amp;middot;霍普金斯大学）</span> </li> 
+            
           </ul> 
         </div> </li> 
         <li> 
@@ -177,14 +226,23 @@
           </div> 
         </div> 
         <div class="intro"> 
-          <p>我是一个投资人，也是一个创业者。12年我创办乐动力，该公司在18年被阿里巴巴全资收购，在六年的创业历程里我收获了很多苦与乐。我还是一个爱写代码的产品经理，有十余年互联网产品研发的经验。我希望贡献我的创业经验和产品洞察，与创业者同行。</p> 
-          <h3>主要工作经历</h3> 
-          <ul> 
-          <li><strong class="label">• Google</strong>08年至11年，先后担任工程师和产品经理。在北京和加州办公室轮岗，参与了问答社区、垂直搜索和手机广告等国际化项目 </li> 
-          <li><strong class="label">• 乐动力</strong>12年至18年，任CEO。乐动力是超百万日活的运动社区，于18年被阿里巴巴全资收购。</li> 
-          <li><strong class="label">• 阿里体育</strong>18年至19年，任CTO。管理技术和产品团队，负责产品研发。</li> 
+          <p>
+            我是一个创业者。我创办了乐动力，这是一个运动工具和社区。在五年的创业历程里我体验过高速成长的极度喜悦，也经历过团队分裂的至暗时刻，曾被顶级VC青睐，也遭遇过近百投资人的拒绝。创业者的苦与乐，我懂的！ 
+          </p> 
+          <h3>
+            主要工作经历：
+          </h3> 
+          <ul>
+            
+              <li><strong class="label">• Google</strong>08年至11年，先后担任工程师和产品经理。在北京和加州办公室轮岗，参与了问答社区、垂直搜索和手机广告等国际化项目。</li> 
+            
+              <li><strong class="label">• 乐动力</strong>2012年至2018年，任CEO。乐动力是超百万日活的运动社区，于18年被阿里巴巴全资收购。</li> 
+            
+              <li><strong class="label">• 阿里体育</strong>2018年至2019年，任CTO。管理技术和产品团队，负责产品研发。</li> 
+            
+          
           </ul> 
-          <p>我是极度理性又非常闷骚的 IT 男，常常深度自省，偶尔冷笑话。由于做过运动产品，所有运动项目我都会一点儿，但理论知识远远大于实践。我的缺点是沟通着急，很爱抢话，遇到这种情况麻烦大家凶猛地怼我。</p> 
+          <p>我是极度理性又非常闷骚的 IT 男，常常深度自省，偶尔冷笑话。由于做过运动产品，所有运动项目我都会一点儿，但理论知识远远大于实践。我的缺点是沟通着急，很爱抢话，遇到这种情况麻烦大家凶猛地怼我。</p>
         </div> </li> 
         <li> 
         <div class="user-info-box"> 
@@ -196,9 +254,13 @@
           </div> 
         </div> 
         <div class="intro"> 
-          <p>我是Shawn，大家也可以直接叫我“少帅”，这是真名，而不是昵称哦。我一直是个内心很叛逆的人，当大学同学都在准备银行、国企甚至公务员考试时，我就向腾讯投递了简历，跑去深圳去了，因为觉得互联网公司才好玩。再后来去华为2012实验室，做智能终端新的人机交互系统，也是同样的追求。我渴望创造新的东西，不仅能带来成就感，也能推动科技进步。我有过主导创业的经历，这让我对创业者的角色有更多的理解，也让我找到了投资这份最适合自己的事业，让我可以真正帮助到创业者。 </p> 
-          <p>作为非典型理工男，我私底下喜欢潮牌，喜欢电影，看街舞，也追星。平时爱好篮球，从初中就是科比死粉。希望未来做一名制片人，能够做出好的电影，好的内容。</p> 
-          <p>我关注社交文娱，产业互联网领域投资。</p> 
+          
+            <p>我是Shawn，大家也可以直接叫我“少帅”，这是真名，而不是昵称哦。我一直是个内心很叛逆的人，当大学同学都在准备银行、国企甚至公务员考试时，我就向腾讯投递了简历，跑去深圳去了，因为觉得互联网公司才好玩。再后来去华为2012实验室，做智能终端新的人机交互系统，也是同样的追求。我渴望创造新的东西，不仅能带来成就感，也能推动科技进步。我有过主导创业的经历，这让我对创业者的角色有更多的理解，也让我找到了投资这份最适合自己的事业，让我可以真正帮助到创业者。</p> 
+          
+            <p>作为非典型理工男，我私底下喜欢潮牌，喜欢电影，看街舞，也追星。平时爱好篮球，从初中就是科比死粉。希望未来做一名制片人，能够做出好的电影，好的内容。</p> 
+          
+            <p>我关注社交文娱，产业互联网领域投资。</p> 
+          
         </div> </li> 
         <li> 
         <div class="user-info-box"> 
@@ -210,10 +272,15 @@
           </div> 
         </div> 
         <div class="intro"> 
-          <p>我在中国科学院化学研究所取得理学博士学位，当时的研究方向是新能源材料制备和器件设计。毕业论文的idea来源于一次洗澡时的灵光一现。幸运的是，我把实现了出来并发表了paper。我感谢过去的科研和工作经历，无数次重复 “发现问题，提出假设，实验验证，得出结论”的训练，让我具备了独立思考和分析问题的技能和经验。</p> 
-          <p>现在，这些经历持续助力我每天的工作，包括：从海量的raw data中筛选高价值数据源，拓展行业衡量指标，迭代权重分配，在实践中反思前瞻性判断的偏差原因，不断优化系统思维构架，提升投资工作中判断的合理性。 </p> 
-          <p>我认为，行业研究和投资决策应是相互助力的，而决策系统的进化最最关键的，是从创业者宝贵的实践经验中得到反哺。而我，珍惜每一次和创业者们交流、学习的机会，并期待未来，能在我热爱的投资工作中，遇见更多atypical的你！ </p> 
-          <p>关注科技领域的投资机会。</p> 
+          
+            <p>我在中国科学院化学研究所取得理学博士学位，当时的研究方向是新能源材料制备和器件设计。毕业论文的idea来源于一次洗澡时的灵光一现。幸运的是，我把实现了出来并发表了paper。我感谢过去的科研和工作经历，无数次重复 “发现问题，提出假设，实验验证，得出结论”的训练，让我具备了独立思考和分析问题的技能和经验。</p> 
+          
+            <p>现在，这些经历持续助力我每天的工作，包括：从海量的raw data中筛选高价值数据源，拓展行业衡量指标，迭代权重分配，在实践中反思前瞻性判断的偏差原因，不断优化系统思维构架，提升投资工作中判断的合理性。</p> 
+          
+            <p>我认为，行业研究和投资决策应是相互助力的，而决策系统的进化最最关键的，是从创业者宝贵的实践经验中得到反哺。而我，珍惜每一次和创业者们交流、学习的机会，并期待未来，能在我热爱的投资工作中，遇见更多atypical的你！</p> 
+          
+            <p>关注科技领域的投资机会。</p> 
+          
         </div> </li> 
         <li> 
         <div class="user-info-box"> 
@@ -224,27 +291,44 @@
           谢毅 Will
           </div> 
         </div> 
-        <div class="intro"> 
-          <p>毕业于东北财经大学，加拿大特许会计师。曾在安永会计师事务所上海分所任高级审计师，其后十余年在上海及香港两地工作。先后在云月投资、香港惠理集团、远东宏信及新加坡四维资本从事私募股权投资工作。既负责过项目投资及投后管理，亦负责过基金财务与合规工作。期间协助不同类型的被投企业梳理财务职能，参加董事会议及协助被投企业的上市工作。 </p> 
-          <p>我喜欢挑战的户外运动，例如单板滑雪、攀岩， 也享受一个人的旅行。</p> 
-          <p>目前在Atypical Ventures主要负责财务、合规、法务及运营工作，并且参与被投企业的投后管理工作。</p> 
+        <div class="intro">
+           
+            <p>毕业于东北财经大学，加拿大特许会计师。曾在安永会计师事务所上海分所任高级审计师，其后十余年在上海及香港两地工作。先后在云月投资、香港惠理集团、远东宏信及新加坡四维资本从事私募股权投资工作。既负责过项目投资及投后管理，亦负责过基金财务与合规工作。期间协助不同类型的被投企业梳理财务职能，参加董事会议及协助被投企业的上市工作。</p>
+           
+            <p>我喜欢挑战的户外运动，例如单板滑雪、攀岩， 也享受一个人的旅行。</p>
+           
+            <p>目前在Atypical Ventures主要负责财务、合规、法务及运营工作，并且参与被投企业的投后管理工作。</p>
+          
         </div> </li> 
       </ul> 
       </div> 
     </div> 
     <!-- values模块 -->
+    
     <div class="box"> 
       <div class="title animate-scroll" id="values"> 
       <h2><img data-src="/statics/values.svg" alt="" /></h2> 
       </div> 
       <div class="values-wrapper animate-scroll"> 
         <div class="tab-nav custom values-nav flex-space swiper-pagination-clickable swiper-pagination-bullets"> 
-          <a href="javascript:;" class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1">真实不装</a> 
-          <a href="javascript:;" class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2">值得信赖</a> 
-          <a href="javascript:;" class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3">创业精神</a> 
-          <a href="javascript:;" class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4">内在驱动</a> 
-          <a href="javascript:;" class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5">服务态度</a> 
-          <a href="javascript:;" class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 6">灵活快速</a> 
+          <a href="javascript:;" class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1">
+            
+          </a> 
+          <a href="javascript:;" class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2">
+            
+          </a> 
+          <a href="javascript:;" class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3">
+            
+          </a> 
+          <a href="javascript:;" class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4">
+            
+          </a> 
+          <a href="javascript:;" class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5">
+            
+          </a> 
+          <a href="javascript:;" class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 6">
+            
+          </a> 
         </div> 
         <div class="swiper-container values-container swiper-container-fade swiper-container-initialized swiper-container-horizontal"> 
           <div class="swiper-wrapper align-items" style="transition-duration: 0ms;"> 
@@ -258,8 +342,18 @@
             <img id="mobile" src="/statics/0.svg" alt="" /> 
             </div> 
             <div class="swiper-main" data-swiper-parallax-opacity="0.15" style="transition-duration: 0ms; opacity: 0.15; transform: translate3d(0px, 0px, 0px);"> 
-            <h3 data-swiper-parallax="-100" style="transition-duration: 0ms; transform: translate3d(-100px, 0px, 0px);">真实不装</h3> 
-            <p data-swiper-parallax="-150" style="transition-duration: 0ms; transform: translate3d(-150px, 0px, 0px);"> 真实、简单、直接、好沟通，做朴素和原生态的表达<br /> 表里如一，所言即所想<br /> 不“装懂”，保持空杯和谦和</p> 
+            <h3 data-swiper-parallax="-100" style="transition-duration: 0ms; transform: translate3d(-100px, 0px, 0px);">
+              真实不装
+            </h3> 
+            <p data-swiper-parallax="-150" style="transition-duration: 0ms; transform: translate3d(-150px, 0px, 0px);">
+              
+                真实，简单，直接，好沟通，做朴素和原生态的表达<br >
+              
+                表里如一，所言即所想<br >
+              
+                不“装懂”，保持空杯和谦和<br >
+              
+            </p> 
             </div> 
           </div> 
           <div class="swiper-slide swiper-slide-duplicate-next" data-swiper-slide-index="1" style="transition-duration: 0ms; opacity: 0; transform: translate3d(-2597px, 0px, 0px);"> 
@@ -272,8 +366,16 @@
             <img id="mobile" src="/statics/1.svg" alt="" /> 
             </div> 
             <div class="swiper-main" data-swiper-parallax-opacity="0.15" style="transition-duration: 0ms; opacity: 0.15; transform: translate3d(0px, 0px, 0px);"> 
-            <h3 data-swiper-parallax="-100" style="transition-duration: 0ms; transform: translate3d(-100px, 0px, 0px);">值得信赖</h3> 
-            <p data-swiper-parallax="-150" style="transition-duration: 0ms; transform: translate3d(-150px, 0px, 0px);">言语客观，不浮夸<br /> 有契约精神，不过度承诺</p> 
+            <h3 data-swiper-parallax="-100" style="transition-duration: 0ms; transform: translate3d(-100px, 0px, 0px);">
+              值得信赖
+            </h3> 
+            <p data-swiper-parallax="-150" style="transition-duration: 0ms; transform: translate3d(-150px, 0px, 0px);">
+              
+                言语客观，不浮夸<br >
+              
+                有契约精神，不过度承诺<br >
+              
+            </p> 
             </div> 
           </div> 
           <div class="swiper-slide" data-swiper-slide-index="2" style="transition-duration: 0ms; opacity: 0; transform: translate3d(-2968px, 0px, 0px);"> 
@@ -286,8 +388,20 @@
             <img id="mobile" src="/statics/2.svg" alt="" /> 
             </div> 
             <div class="swiper-main" data-swiper-parallax-opacity="0.15" style="transition-duration: 0ms; opacity: 0.15; transform: translate3d(0px, 0px, 0px);"> 
-            <h3 data-swiper-parallax="-100" style="transition-duration: 0ms; transform: translate3d(-100px, 0px, 0px);">创业精神</h3> 
-            <p data-swiper-parallax="-150" style="transition-duration: 0ms; transform: translate3d(-150px, 0px, 0px);">用创业的心态做基金<br />忘掉过去的成功<br /> 做最基础的工作<br />节省、务实、接地气</p> 
+            <h3 data-swiper-parallax="-100" style="transition-duration: 0ms; transform: translate3d(-100px, 0px, 0px);">
+              创业精神
+            </h3> 
+            <p data-swiper-parallax="-150" style="transition-duration: 0ms; transform: translate3d(-150px, 0px, 0px);">
+              
+                用创业的心态做基金<br >
+              
+                忘掉过去的成功<br >
+              
+                做最基础的工作<br >
+              
+                节省，务实，接地气<br >
+              
+            </p> 
             </div> 
           </div> 
           <div class="swiper-slide" data-swiper-slide-index="3" style="transition-duration: 0ms; opacity: 0; transform: translate3d(-3339px, 0px, 0px);"> 
@@ -300,8 +414,20 @@
             <img id="mobile" src="/statics/3.svg" alt="" /> 
             </div> 
             <div class="swiper-main" data-swiper-parallax-opacity="0.15" style="transition-duration: 0ms; opacity: 0.15; transform: translate3d(0px, 0px, 0px);"> 
-            <h3 data-swiper-parallax="-100" style="transition-duration: 0ms; transform: translate3d(-100px, 0px, 0px);">内在驱动</h3> 
-            <p data-swiper-parallax="-150" style="transition-duration: 0ms; transform: translate3d(-150px, 0px, 0px);">不做表面的强势和进攻性<br />而是有强大的内在志向<br /> 对成功保持高标准<br />寻找同样饥渴的创业者</p> 
+            <h3 data-swiper-parallax="-100" style="transition-duration: 0ms; transform: translate3d(-100px, 0px, 0px);">
+              内在驱动
+            </h3> 
+            <p data-swiper-parallax="-150" style="transition-duration: 0ms; transform: translate3d(-150px, 0px, 0px);">
+              
+                不做表面的强势和攻击性<br >
+              
+                而是有强大的内在志向<br >
+              
+                对成功保持高标准<br >
+              
+                寻找同样饥渴的创业者<br >
+              
+            </p> 
             </div> 
           </div> 
           <div class="swiper-slide" data-swiper-slide-index="4" style="transition-duration: 0ms; opacity: 0; transform: translate3d(-3710px, 0px, 0px);"> 
@@ -314,8 +440,20 @@
             <img id="mobile" src="/statics/4.svg" alt="" /> 
             </div> 
             <div class="swiper-main" data-swiper-parallax-opacity="0.15" style="transition-duration: 0ms; opacity: 0.15; transform: translate3d(0px, 0px, 0px);"> 
-            <h3 data-swiper-parallax="-100" style="transition-duration: 0ms; transform: translate3d(-100px, 0px, 0px);">服务态度</h3> 
-            <p data-swiper-parallax="-150" style="transition-duration: 0ms; transform: translate3d(-150px, 0px, 0px);">找到比我们更牛的创业者<br />服务好他们<br /> 竭尽全力帮助创业公司<br />给钱不添乱</p> 
+            <h3 data-swiper-parallax="-100" style="transition-duration: 0ms; transform: translate3d(-100px, 0px, 0px);">
+              服务态度
+            </h3> 
+            <p data-swiper-parallax="-150" style="transition-duration: 0ms; transform: translate3d(-150px, 0px, 0px);">
+              
+                找到比我们更牛的创业者<br >
+              
+                服务好他们<br >
+              
+                竭尽全力帮助创业公司<br >
+              
+                给钱不添乱<br >
+              
+            </p> 
             </div> 
           </div> 
           <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="5" style="transition-duration: 0ms; opacity: 0; transform: translate3d(-4081px, 0px, 0px);"> 
@@ -328,8 +466,16 @@
             <img id="mobile" src="/statics/5.svg" alt="" /> 
             </div> 
             <div class="swiper-main" data-swiper-parallax-opacity="0.15" style="transition-duration: 0ms; opacity: 0.15; transform: translate3d(0px, 0px, 0px);"> 
-            <h3 data-swiper-parallax="-100" style="transition-duration: 0ms; transform: translate3d(-100px, 0px, 0px);">灵活快速</h3> 
-            <p data-swiper-parallax="-150" style="transition-duration: 0ms; transform: translate3d(-150px, 0px, 0px);"> 把两周的决策压缩到一周做完<br /> 做最快的响应 最灵活的决策 </p> 
+            <h3 data-swiper-parallax="-100" style="transition-duration: 0ms; transform: translate3d(-100px, 0px, 0px);">
+              灵活快速
+            </h3> 
+            <p data-swiper-parallax="-150" style="transition-duration: 0ms; transform: translate3d(-150px, 0px, 0px);">
+              
+                把两周的决策压缩到一周做完<br >
+              
+                做最快的响应 最灵活的决策<br >
+              
+            </p> 
             </div> 
           </div> 
           </div> 
@@ -400,12 +546,13 @@
         </div>
       </div> 
     </div> 
+    
     <!-- partner模块 -->
     <!-- <div class="box-mobile">
       <div class="title animate-scroll active" id="partners">
         <h2><img data-src="/statics/partners.svg" alt=""></h2>
       </div>
-      <!-- 轮播logo -->
+      
       <div class="partner-wrapper animate-scroll active">
         <div class="swiper-container tab-partner swiper-container-initialized swiper-container-horizontal">
           <div class="swiper-wrapper" style="transition-duration: 750ms;">
@@ -462,7 +609,7 @@
       </div>
       <div id="pc" class="row justify-content pn-box"> 
       </div>
-    </div> 
+    </div>  -->
     <!-- 地址模块 -->
     <div class="box last"> 
       <div class="title animate-scroll" id="contact"> 
@@ -478,10 +625,17 @@
       </div> 
       <div></div> 
       <div class="contact-main pc-contact-main"> 
-        <p>北京市光华国际AB座7层WeWork</p> 
+        <p>
+          北京市光华国际ab座7层wework
+        </p> 
         <p><a class="more" href="https://m.amap.com/search/mapview/keywords=WeWork(%E5%85%89%E5%8D%8E%E8%B7%AF%E5%BA%97)&amp;city=110105&amp;poiid=B0FFI1B8MF" target="_blank">查看地图</a></p> 
-        <p>融资计划、合作机会、求职应聘</p> 
-        <p>请联系 <a href="mailto:vip@atypical.ventures">vip@atypical.ventures</a> </p> 
+        <p>
+          融资计划，合作机会，求职应聘
+        </p> 
+        <p>
+          请联系
+          <a href="mailto:vip@atypical.ventures">vip@atypical.ventures</a>
+        </p> 
       </div> 
       </div> 
     </div> 
@@ -496,7 +650,7 @@
       <li> <a href="javascript:;">About</a> </li> 
       <li> <a href="javascript:;">Team</a> </li> 
       <li> <a href="javascript:;">Values</a> </li> 
-      <li> <a href="javascript:;">Partners</a> </li> 
+      <!-- <li> <a href="javascript:;">Partners</a> </li>  -->
       <li> <a href="javascript:;">Contact</a> </li> 
     </ul> 
     <a href="javascript:;" class="close">&nbsp;</a> 

@@ -98,7 +98,6 @@ a.active {
 	opacity: 0;
 	transform: translate3d(0, -54px, 0);
 }
-
 .header.show {
 	transform: translate3d(0, 0, 0);
 	opacity: 1;
@@ -109,9 +108,29 @@ a.active {
 }
 
 .logo {
-	height: 30px;
+	/* height: 30px; */
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
-
+.lang-box{
+	margin:0px 10px 0px 20px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.lang-switch{
+	color: #fff;
+	font-size: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 3px;
+	padding: 1px 5px;
+}
+.lang-active{
+	color: #DCF754;
+}
 .nav-btn {
 	width: 30px;
 	height: 30px;
@@ -1032,13 +1051,28 @@ a.close {
 	margin-top: 20px;
 	color: rgba(255,255,255,0.7);
 }
-.partner-p-item, .value-p-item{
+/**
+	新控制条
+*/
+/* .partner-p-item, .value-p-item{
 	width: 5px;
 	height: 2px;
 	background: #6E6E6E;
 	margin: 90px 3px 0px;
 	transition: 0.5s ease all;
+} */
+
+/*
+	老控制条
+*/
+.partner-p-item, .value-p-item{
+	width: 50px;
+	height: 2px;
+	background: #6E6E6E;
+	margin: 90px 10px 0px;
+	transition: 0.5s ease all;
 }
+
 .pn, .vp-box{
 	width: 100%;
 }

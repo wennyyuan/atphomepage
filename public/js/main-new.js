@@ -203,8 +203,8 @@ function initPartner() {
 
 
 $(function () {
-  showDialog('partner-item')
-
+  
+  // showDialog('partner-item')
 
   $(window).scrollTop(0)
   $(".nav-btn").click(function () {
@@ -263,57 +263,57 @@ $(function () {
       valuesSwiper.slideToLoop(index);
     });
   });
-  initPartner();
+  // initPartner();
   // partner轮播控制实例
-  var tabPartner = new Swiper(".tab-partner", {
-    loop: true,
-    slidesPerView: 'auto',
-    loopedSlides: 7,
-    centeredSlides: true,
-    spaceBetween: 20,
-    slideToClickedSlide: true,
-  });
-  var partnerContainer = new Swiper(".partner-container",{
-    loop: true,
-    loopedSlides: 7,
-    parallax : true,
-    speed: 750,
-    autoplay: {
-      delay: 8000, //8秒切换一次
-      disableOnInteraction: false,
-    },
-    effect: 'fade',
-    fadeEffect: {
-      crossFade: true,
-    },
-    controller: {
-      control: tabPartner,
-    },
-    navigation: {
-      nextEl: '.partner-next-btn',
-      prevEl: '.partner-pre-btn',
-    },
-    on: {
-      transitionStart: function(){
-        $(".partner-container .spinner").removeClass("active")
-        document.querySelectorAll(".partner-p-item").forEach(item=>{
-          item.style = '';
-        });
-        $(`.pn${this.realIndex+1}`)[0].style = 'background:#A5B93F; width: 50px';
-      },
-      transitionEnd: function(){
-        $(".partner-container .spinner").addClass("active")
-      },
-      click: function(e) {
-        // if (e.target.parentNode.className == 'partner-pre-btn' || e.target.parentNode.className == 'partner-next-btn') {
-        //   return
-        // } else {
-        //   showDialog('partner-item');
-        //   console.log(e.target.parentNode.parentNode.dataset.swiperSlideIndex);  
-        // }
-      }
-    },
-  })
+  // var tabPartner = new Swiper(".tab-partner", {
+  //   loop: true,
+  //   slidesPerView: 'auto',
+  //   loopedSlides: 7,
+  //   centeredSlides: true,
+  //   spaceBetween: 20,
+  //   slideToClickedSlide: true,
+  // });
+  // var partnerContainer = new Swiper(".partner-container",{
+  //   loop: true,
+  //   loopedSlides: 7,
+  //   parallax : true,
+  //   speed: 750,
+  //   autoplay: {
+  //     delay: 8000, //8秒切换一次
+  //     disableOnInteraction: false,
+  //   },
+  //   effect: 'fade',
+  //   fadeEffect: {
+  //     crossFade: true,
+  //   },
+  //   controller: {
+  //     control: tabPartner,
+  //   },
+  //   navigation: {
+  //     nextEl: '.partner-next-btn',
+  //     prevEl: '.partner-pre-btn',
+  //   },
+  //   on: {
+  //     transitionStart: function(){
+  //       $(".partner-container .spinner").removeClass("active")
+  //       document.querySelectorAll(".partner-p-item").forEach(item=>{
+  //         item.style = '';
+  //       });
+  //       $(`.pn${this.realIndex+1}`)[0].style = 'background:#A5B93F; width: 50px';
+  //     },
+  //     transitionEnd: function(){
+  //       $(".partner-container .spinner").addClass("active")
+  //     },
+  //     click: function(e) {
+  //       // if (e.target.parentNode.className == 'partner-pre-btn' || e.target.parentNode.className == 'partner-next-btn') {
+  //       //   return
+  //       // } else {
+  //       //   showDialog('partner-item');
+  //       //   console.log(e.target.parentNode.parentNode.dataset.swiperSlideIndex);  
+  //       // }
+  //     }
+  //   },
+  // })
 
   // tabPartner.controller.control = partnerContainer;
   // partnerContainer.controller.control = tabPartner;
