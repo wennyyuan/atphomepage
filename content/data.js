@@ -24,7 +24,7 @@ module.exports = {
             work_exp: {
                 exp_title: {
                     cn: '创建 Atypical Ventures 之前：',
-                    en: 'Before starting Atypical Ventures:'
+                    en: 'Prior of Atypical Ventures:'
                 },
                 exp_1: {
                     name: {
@@ -49,8 +49,8 @@ module.exports = {
             },
             portfolios: {
                 title: {
-                    cn: 'VC/天使代表作：',
-                    en: 'VC/Angel Portfolios:'
+                    cn: '投资案例：',
+                    en: 'Investment Portfolios:'
                 },
                 list: [
                     {
@@ -208,24 +208,24 @@ module.exports = {
             edu_exp: {
                 title: {
                     cn: '教育经历：',
-                    en: 'Educational Experience:'
+                    en: 'Education:'
                 },
                 list: [{
                     name: {
-                        cn: '经济学学士学位 University of Maryland, Baltimore County',
+                        cn: '经济学学士学位，University of Maryland, Baltimore County',
                         en: 'Bachelor of Economics，University of Maryland, Baltimore County'
                     },
                     desc: {
-                        cn: '（马里兰大学巴尔的摩郡分校）',
+                        cn: '',
                         en: ''
                     }
                 }, {
                     name: {
-                        cn: '经济硕士学位 Johns Hopkins University',
+                        cn: '经济硕士学位，Johns Hopkins University',
                         en: 'Master of Economics，Johns Hopkins University'
                     },
                     desc: {
-                        cn: '约翰斯&middot;霍普金斯大学）',
+                        cn: '',
                         en: ''
                     }
                 }]
@@ -233,13 +233,13 @@ module.exports = {
         },
         chao: {
             desc: {
-                cn: '我是一个创业者。我创办了乐动力，这是一个运动工具和社区。在五年的创业历程里我体验过高速成长的极度喜悦，也经历过团队分裂的至暗时刻，曾被顶级VC青睐，也遭遇过近百投资人的拒绝。创业者的苦与乐，我懂的！ ',
-                en: 'I am an investor and an entrepreneur. I founded Ledongli in 2012, and the company was acquired by Alibaba fully in 2018. During the six years of entrepreneurship, I have gained a lot of pain and happiness. I am also a product manager who loves coding with more than ten years of experience in Internet product development. I hope to contribute my entrepreneurial experience and product insights to give entrepreneurs some help.'
+                cn: '我是一个投资人，也是一个创业者。我创办了乐动力，公司被阿里巴巴收购，在六年的创业历程里我收获了很多苦与乐。我是爱写代码的产品经理，曾在 Google 和阿里工作，在互联网行业有十年产品经理的经验。我希望贡献创业经验和技术洞察，与创业者同行，帮助企业成功。',
+                en: 'I am an investor and an entrepreneur. I founded Ledongli, and the company was acquired by Alibaba. During the six years of entrepreneurship, I have gone through a lot of pain and joy. I am also a product manager who loves coding, with more than ten years of experience in Google, Alibaba, and other internet companies. I am here to contribute my entrepreneurial experience and product insights, to help companies achieve great success.'
             },
             work_exp: {
                 title: {
-                    cn: '主要工作经历：',
-                    en: 'Main Working Experience:'
+                    cn: '工作经历：',
+                    en: 'Work Experience:'
                 },
                 list: [{
                     name: {
@@ -247,8 +247,8 @@ module.exports = {
                         en: 'Google'
                     },
                     desc: {
-                        cn: '08年至11年，先后担任工程师和产品经理。在北京和加州办公室轮岗，参与了问答社区、垂直搜索和手机广告等国际化项目。',
-                        en: 'From 2008 to 2011, served as engineer and product manager in Google successively. Chao Rotated in the Beijing and California offices and participated in international projects such as Q&A communities, vertical search and mobile advertising.'
+                        cn: '2008年至2011年，先后担任工程师和产品经理。在北京和加州办公室轮岗，参与了问答社区、垂直搜索和手机广告等全球项目',
+                        en: 'From 2008 to 2011, engineer and product manager. Worked in the Beijing and California offices. Managed multiple products including Q&A communities, vertical search, and mobile advertising.'
                     }
                 }, {
                     name: {
@@ -256,8 +256,8 @@ module.exports = {
                         en: 'Ledongli'
                     },
                     desc: {
-                        cn: '2012年至2018年，任CEO。乐动力是超百万日活的运动社区，于18年被阿里巴巴全资收购。',
-                        en: 'From 2012 to 2018, Chao served as CEO in Ledongli. Ledongli is a sports community with over one million daily activation, which was acquired by Alibaba fully in 2018.'
+                        cn: '2012年至2018年，任联合创始人兼CEO。乐动力是超百万日活的运动社区，于2018年被阿里巴巴全资收购。',
+                        en: 'From 2012 to 2018, co-founder and CEO. Ledongli was a top fitness community in China with over one million daily active users, which was acquired by Alibaba.'
                     }
                 }, {
                     name: {
@@ -265,14 +265,44 @@ module.exports = {
                         en: 'Alibaba Sports'
                     },
                     desc: {
-                        cn: '2018年至2019年，任CTO。管理技术和产品团队，负责产品研发。',
-                        en: 'From 2018 to 2019，Chaoserved as CTO in Alibaba Sports. He managed technical and product team and was responsible for product development.'
+                        cn: '2018年至2019年，任CTO。管理技术和产品团队超过200人，负责产品研发。',
+                        en: 'From 2018 to 2019, CTO. Led over 200 engineers and product managers.'
                     }
                 }]
             },
-            self_account: {
-                cn: '我是极度理性又非常闷骚的 IT 男，常常深度自省，偶尔冷笑话。由于做过运动产品，所有运动项目我都会一点儿，但理论知识远远大于实践。我的缺点是沟通着急，很爱抢话，遇到这种情况麻烦大家凶猛地怼我。',
-                en: 'I am an extremely rational and very mentally sexy IT man, often introspecting deeply, and occasionally making cold jokes. Since I have done sports products, I know a little about all sports, but far better in the theory side instead of practice. My shortcoming is that I am anxious to communicate, and I like to snatch conversations. When this happens, please let me know!'
+            portfolios: {
+                title: {
+                    cn: '投资案例：',
+                    en: 'Investment Portfolios:'
+                },
+                list: [
+                    {
+                        name: {
+                            cn: 'StarRocks：',
+                            en: 'StarRocks: '
+                        },
+                        desc: {
+                            cn: '开源基础软件，极速全场景的数据仓库。',
+                            en: 'Open-source infrastructure software. A unified database enabling blazingly fast data analytics.'
+                        }
+                    }
+                ]
+            }, 
+            edu_exp: {
+                title: {
+                    cn: '教育经历：',
+                    en: 'Education:'
+                },
+                list: [{
+                    name: {
+                        cn: '北京大学，计算机专业学士和硕士，经济学专业学士。',
+                        en: 'Peking University, Master and Bachelor in Computer Science, and Bachelor in Economics. '
+                    },
+                    desc: {
+                        cn: '',
+                        en: ''
+                    }
+                }]
             }
         },
         Shawn: {

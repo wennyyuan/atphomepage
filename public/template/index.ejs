@@ -210,9 +210,23 @@
             <% data.team.chao.work_exp.list.forEach(function(item){ %>
               <li><strong class="label">• <%= item.name %></strong><%= item.desc %></li> 
             <% }); %>
-          
           </ul> 
-          <p><%= data.team.chao.self_account %></p>
+          <h3>
+            <%= data.team.chao.portfolios.title %>
+          </h3> 
+          <ul>
+            <% data.team.chao.portfolios.list.forEach(function(item){ %>
+              <li><%= item.name %> <span class="gray"><%= item.desc %></span></li> 
+            <% }); %>
+          </ul> 
+          <h3>
+            <%= data.team.chao.edu_exp.title %>
+          </h3> 
+          <ul> 
+            <% data.team.chao.edu_exp.list.forEach(function(item) { %>
+              <li><%= item.name %> <span class="gray"><%= item.desc %></span> </li> 
+            <% }); %>
+          </ul> 
         </div> </li> 
         <li> 
         <div class="user-info-box"> 
