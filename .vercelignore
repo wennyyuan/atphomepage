@@ -1,6 +1,4 @@
 node_modules
-builder
-content
 scripts
 doc
 .DS_Store
@@ -10,8 +8,6 @@ doc
 *.ai
 .git
 .gitignore
-package.json
-package-lock.json
 README.md
 old.html
 Atypical Venture官网设计文件.zip
