@@ -1,8 +1,6 @@
 {
-  "version": 2,
   "buildCommand": "npm run build",
   "outputDirectory": "public",
   "framework": null,
-  "cleanUrls": true,
-  "trailingSlash": false
+  "installCommand": "npm install"
 }
