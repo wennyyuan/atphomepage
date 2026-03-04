@@ -1076,3 +1076,121 @@ a.close {
 .pn, .vp-box{
 	width: 100%;
 }
+
+/* Portfolios Section */
+.portfolio-list {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.portfolio-list ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.portfolio-list li {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 25px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.portfolio-list li:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-5px);
+}
+
+.portfolio-info-box {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.portfolio-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.portfolio-name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.portfolio-status {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  background: rgba(110, 110, 110, 0.5);
+  color: #fff;
+  white-space: nowrap;
+}
+
+.portfolio-status.status-ipo {
+  background: rgba(76, 175, 80, 0.3);
+  color: #81c784;
+}
+
+.portfolio-desc {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.portfolio-meta {
+  display: flex;
+  gap: 15px;
+  margin-top: 8px;
+}
+
+.portfolio-round {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.portfolio-meta .portfolio-status {
+  margin: 0;
+}
+
+.sub-desc {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 5px;
+  font-weight: normal;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .portfolio-list ul {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .portfolio-list li {
+    padding: 20px;
+  }
+
+  .portfolio-name {
+    font-size: 18px;
+  }
+
+  .portfolio-desc {
+    font-size: 13px;
+  }
+}
+

@@ -503,6 +503,39 @@ module.exports = {
             }]
         }]
     },
+    portfolios: {
+        title: {
+            cn: '投资组合',
+            en: 'Portfolio Companies'
+        },
+        subtitle: {
+            cn: '我们很荣幸能与这些优秀的创业者同行',
+            en: 'We are honored to work with these outstanding entrepreneurs'
+        },
+        list: [
+            // 示例格式 - 请在下面添加你的投资案例
+            {
+                name: {
+                    cn: '项目名称中文',
+                    en: 'Project Name English'
+                },
+                desc: {
+                    cn: '项目简介（一句话描述）',
+                    en: 'Project description (one sentence)'
+                },
+                round: {
+                    cn: 'A轮',
+                    en: 'Series A'
+                },
+                status: {
+                    cn: '运营中',
+                    en: 'Operating'
+                }
+            }
+            // 复制上面的格式，添加更多投资案例
+            // 记得在每一项后面加逗号，最后一项不要加逗号
+        ]
+    },
     contact: {
         address: {
             cn: '北京市光华国际ab座7层wework',

@@ -60,13 +60,14 @@
       </div>
     </div> 
     <!-- tab bar -->
-    <nav id="pc" class="pc-nav-btn-box row"> 
-      <a class="active" href="javascript:;">Home</a> 
-      <a href="javascript:;">About</a> 
-      <a href="javascript:;">Team</a> 
-      <a href="javascript:;">Values</a> 
+    <nav id="pc" class="pc-nav-btn-box row">
+      <a class="active" href="javascript:;">Home</a>
+      <a href="javascript:;">About</a>
+      <a href="javascript:;">Team</a>
+      <a href="javascript:;">Portfolios</a>
+      <a href="javascript:;">Values</a>
       <!-- <a href="javascript:;">Partners</a>  -->
-      <a href="javascript:;">Contact</a> 
+      <a href="javascript:;">Contact</a>
     </nav> 
     
   </div> 
@@ -270,9 +271,40 @@
             <p><%= item.desc %></p>
           <% }); %>
         </div> </li> 
-      </ul> 
-      </div> 
-    </div> 
+      </ul>
+      </div>
+    </div>
+    <!-- portfolios模块 -->
+    <div class="box">
+      <div class="title animate-scroll" id="portfolios">
+      <h2><img data-src="/statics/partners.svg" alt="" /></h2>
+      <p class="sub-title">
+        <%= data.portfolios.title %>
+      </p>
+      <p class="sub-desc">
+        <%= data.portfolios.subtitle %>
+      </p>
+      </div>
+      <div class="portfolio-list animate-scroll">
+      <ul>
+        <% data.portfolios.list.forEach(function(item){ %>
+        <li>
+        <div class="portfolio-info-box">
+          <div class="portfolio-header">
+            <h3 class="portfolio-name"><%= item.name %></h3>
+            <span class="portfolio-status <%= item.status === 'IPO' || item.status === '已上市' ? 'status-ipo' : '' %>"><%= item.round %></span>
+          </div>
+          <p class="portfolio-desc"><%= item.desc %></p>
+          <div class="portfolio-meta">
+            <span class="portfolio-round"><%= item.round %></span>
+            <span class="portfolio-status"><%= item.status %></span>
+          </div>
+        </div>
+        </li>
+        <% }); %>
+      </ul>
+      </div>
+    </div>
     <!-- values模块 -->
     <%  if (lang == 'cn'){ %>
     <div class="box"> 
@@ -588,16 +620,17 @@
     </div> 
   </div> 
   <div id="layer"></div> 
-  <div class="layer" id="nav"> 
-    <ul class="nav"> 
-      <li class="active"> <a href="javascript:;">Home</a> </li> 
-      <li> <a href="javascript:;">About</a> </li> 
-      <li> <a href="javascript:;">Team</a> </li> 
-      <li> <a href="javascript:;">Values</a> </li> 
+  <div class="layer" id="nav">
+    <ul class="nav">
+      <li class="active"> <a href="javascript:;">Home</a> </li>
+      <li> <a href="javascript:;">About</a> </li>
+      <li> <a href="javascript:;">Team</a> </li>
+      <li> <a href="javascript:;">Portfolios</a> </li>
+      <li> <a href="javascript:;">Values</a> </li>
       <!-- <li> <a href="javascript:;">Partners</a> </li>  -->
-      <li> <a href="javascript:;">Contact</a> </li> 
-    </ul> 
-    <a href="javascript:;" class="close">&nbsp;</a> 
+      <li> <a href="javascript:;">Contact</a> </li>
+    </ul>
+    <a href="javascript:;" class="close">&nbsp;</a>
   </div> 
   <div class="layer" id="teamInfo"> 
     <div class="team-info"></div> 
