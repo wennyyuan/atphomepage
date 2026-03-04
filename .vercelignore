@@ -1,0 +1,19 @@
+node_modules
+builder
+content
+scripts
+doc
+.DS_Store
+*.zip
+*.sketch
+*.psd
+*.ai
+.git
+.gitignore
+package.json
+package-lock.json
+README.md
+old.html
+Atypical Venture官网设计文件.zip
+atypical英文网站翻译.docx
+server.js
