@@ -304,13 +304,14 @@
         <% data.portfolios.list.forEach(function(item){ %>
         <li>
         <div class="user-info-box">
-          <div class="avatar portfolio-avatar">
           <%
             const projectName = item.name;
             const config = projectConfig[projectName] || {};
             const hasLogo = config.logo || false;
             const hasLink = config.link || false;
+            const noFilter = ['票圈视频', 'Nextie 明日新程', 'Pyromind Dynamics', 'Dzine', 'StarRocks'].includes(projectName);
           %>
+          <div class="avatar portfolio-avatar<%= noFilter ? ' img-no-filter' : '' %>">
           <% if (hasLogo) { %>
             <img data-src="/statics/logos/<%= config.logo %>" alt="<%= item.name %>" />
           <% } else { %>
@@ -322,6 +323,7 @@
           </div>
         </div>
         <div class="intro">
+          <h3><%= item.name %></h3>
           <p><%= item.desc %></p>
           <% if (hasLink) { %>
           <p><a href="<%= config.link %>" target="_blank" class="portfolio-link"><%= config.link %></a></p>

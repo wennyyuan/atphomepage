@@ -1142,26 +1142,24 @@ a.close {
 	opacity: 1;
 }
 
+/* 隐藏弹窗中的 avatar/logo */
 #portfolioInfo.show-dialog .portfolio-info .avatar {
-	width: 180px;
-	height: 180px;
-	margin: 0 auto 30px;
-	background-image: linear-gradient(90deg, #E2E2E2 0%, #D6D6D6 100%);
-	overflow: hidden;
-}
-
-#portfolioInfo.show-dialog .portfolio-info .avatar img {
-	width: 100%;
-	height: 100%;
-	object-fit: contain;
-	background: #f5f5f5;
+	display: none;
 }
 
 #portfolioInfo.show-dialog .portfolio-info .name {
-	font-size: 24px;
+	font-size: 32px;
 	color: #333;
 	text-align: center;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
+	font-weight: 600;
+}
+
+#portfolioInfo.show-dialog .portfolio-info .intro h3 {
+	font-size: 24px;
+	color: #333;
+	margin-bottom: 20px;
+	font-weight: 600;
 }
 
 #portfolioInfo.show-dialog .portfolio-info .intro {
@@ -1181,6 +1179,8 @@ a.close {
 	color: #DCF754;
 	text-decoration: none;
 	word-break: break-all;
+	display: inline-block;
+	margin-top: 10px;
 }
 
 #portfolioInfo.show-dialog .portfolio-info .intro .portfolio-link:hover {
