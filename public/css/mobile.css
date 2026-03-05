@@ -35,7 +35,7 @@
 		margin-right: calc((100% - 240px)/2);
 		margin-bottom: 10px;
 	}
-	
+
 	.member-list li:nth-of-type(3n) {
 		margin-right: 0;
 	}
@@ -43,6 +43,29 @@
 		width: 80px;
 		height: 80px;
 		background-image: linear-gradient(90deg, #E2E2E2 0%, #D6D6D6 100%);
+		overflow: hidden;
+		margin-bottom: 5px;
+	}
+
+	/* Portfolio List - Same as Member List */
+	.portfolio-list ul {
+		overflow: hidden;
+	}
+	.portfolio-list li {
+		width: 80px;
+		float: left;
+		margin-right: calc((100% - 240px)/2);
+		margin-bottom: 10px;
+		cursor: pointer;
+	}
+
+	.portfolio-list li:nth-of-type(3n) {
+		margin-right: 0;
+	}
+	.portfolio-list li .avatar {
+		width: 80px;
+		height: 80px;
+		background: rgba(255, 255, 255, 0.1);
 		overflow: hidden;
 		margin-bottom: 5px;
 	}

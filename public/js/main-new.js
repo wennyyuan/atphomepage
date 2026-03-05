@@ -219,6 +219,11 @@ $(function () {
     $("#teamInfo .team-info").html(html)
     showDialog('teamInfo')
   })
+  $(".portfolio-list li").click(function () {
+    var html = $(this).html()
+    $("#portfolioInfo .portfolio-info").html(html)
+    showDialog('portfolioInfo')
+  })
   // values轮播控制实例
   var valuesSwiper = new Swiper('.values-container', {
     effect: 'fade',

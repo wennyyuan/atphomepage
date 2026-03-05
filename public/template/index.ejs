@@ -289,7 +289,6 @@
     };
     %>
     <!-- portfolios模块 -->
-<!-- portfolios模块 -->
     <div class="box">
       <div class="title animate-scroll" id="portfolios">
       <h2><img data-src="/statics/partners.svg" alt="" /></h2>
@@ -304,38 +303,29 @@
       <ul>
         <% data.portfolios.list.forEach(function(item){ %>
         <li>
-        <div class="portfolio-info-box">
+        <div class="user-info-box">
+          <div class="avatar portfolio-avatar">
           <%
-            const projectName = item.name.cn;
+            const projectName = item.name;
             const config = projectConfig[projectName] || {};
             const hasLogo = config.logo || false;
             const hasLink = config.link || false;
           %>
-          <% if (hasLink) { %>
-          <a href="<%= config.link %>" target="_blank" class="portfolio-link">
-          <% } %>
           <% if (hasLogo) { %>
-          <div class="portfolio-logo">
-            <img src="/statics/logos/<%= config.logo %>" alt="<%= item.name %>" class="logo-img">
-          </div>
+            <img data-src="/statics/logos/<%= config.logo %>" alt="<%= item.name %>" />
           <% } else { %>
-          <div class="portfolio-header">
-            <h3 class="portfolio-name"><%= item.name %></h3>
-            <span class="portfolio-status <%= item.status === 'IPO' || item.status === '已上市' ? 'status-ipo' : '' %>"><%= item.round %></span>
-          </div>
+            <div class="portfolio-name-placeholder"><%= item.name %></div>
           <% } %>
+          </div>
+          <div class="name">
+          <%= item.name %>
+          </div>
+        </div>
+        <div class="intro">
+          <p><%= item.desc %></p>
           <% if (hasLink) { %>
-          </a>
+          <p><a href="<%= config.link %>" target="_blank" class="portfolio-link"><%= config.link %></a></p>
           <% } %>
-          <p class="portfolio-desc"><%= item.desc %></p>
-          <div class="portfolio-meta">
-            <% if (item.round) { %>
-            <span class="portfolio-round"><%= item.round[lang] %></span>
-            <% } %>
-            <% if (item.status) { %>
-            <span class="portfolio-status"><%= item.status[lang] %></span>
-            <% } %>
-          </div>
         </div>
         </li>
         <% }); %>
@@ -669,9 +659,13 @@
     </ul>
     <a href="javascript:;" class="close">&nbsp;</a>
   </div> 
-  <div class="layer" id="teamInfo"> 
-    <div class="team-info"></div> 
-    <a href="javascript:;" class="close"></a> 
+  <div class="layer" id="teamInfo">
+    <div class="team-info"></div>
+    <a href="javascript:;" class="close"></a>
+  </div>
+  <div class="layer" id="portfolioInfo">
+    <div class="portfolio-info"></div>
+    <a href="javascript:;" class="close"></a>
   </div>
   <div class="partner-item-layer" id="partner-item"> 
     <div class="partner-item-desc-box col">
