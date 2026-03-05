@@ -1148,18 +1148,11 @@ a.close {
 }
 
 #portfolioInfo.show-dialog .portfolio-info .name {
-	font-size: 32px;
-	color: #333;
-	text-align: center;
-	margin-bottom: 40px;
-	font-weight: 600;
+	display: none;
 }
 
 #portfolioInfo.show-dialog .portfolio-info .intro h3 {
-	font-size: 24px;
-	color: #333;
-	margin-bottom: 20px;
-	font-weight: 600;
+	display: none;
 }
 
 #portfolioInfo.show-dialog .portfolio-info .intro {
@@ -1170,7 +1163,7 @@ a.close {
 
 #portfolioInfo.show-dialog .portfolio-info .intro p {
 	font-size: 16px;
-	color: #666;
+	color: rgba(255, 255, 255, 0.9);
 	line-height: 1.8;
 	margin-bottom: 15px;
 }
@@ -1181,8 +1174,10 @@ a.close {
 	word-break: break-all;
 	display: inline-block;
 	margin-top: 10px;
+	font-weight: 500;
 }
 
 #portfolioInfo.show-dialog .portfolio-info .intro .portfolio-link:hover {
 	text-decoration: underline;
+	color: #FFF500;
 }
