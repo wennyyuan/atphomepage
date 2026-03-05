@@ -327,28 +327,57 @@ module.exports = {
                 }
             ]
         },
-        Wei: {
+        Wenny: {
             descList: [{
                 desc: {
-                    cn: '我在中国科学院化学研究所取得理学博士学位，当时的研究方向是新能源材料制备和器件设计。毕业论文的idea来源于一次洗澡时的灵光一现。幸运的是，我把实现了出来并发表了paper。我感谢过去的科研和工作经历，无数次重复 “发现问题，提出假设，实验验证，得出结论”的训练，让我具备了独立思考和分析问题的技能和经验。',
-                    en: 'I obtained my PhD degree in Chemistry from the Institute of Chemistry, Chinese Academy of Sciences. At that time, my research direction was the production of new energy materials and device design. The idea of the graduation thesis comes from aha moments in the shower. Fortunately, I made it and published it. I am grateful for my past scientific research and work experience. I have repeated the training of "discovering problems, proposing hypotheses, doing verifications, and drawing conclusions" for countless times, so that I have the skills and experience to independently think and analyze problems.'
+                    cn: '超过十年的云计算领域工作/创业经验，经历移动开发、云服务与机器学习时代，现以创业支持视角，发掘与陪伴初创企业在人工智能时代投身变革。',
+                    en: 'With over a decade of experience in cloud computing, entrepreneurship, and work spanning mobile development, cloud services, and machine learning eras, I now focus on discovering and accompanying startups in the AI revolution from an entrepreneurial support perspective.'
                 }
             },{
                 desc: {
-                    cn: '现在，这些经历持续助力我每天的工作，包括：从海量的raw data中筛选高价值数据源，拓展行业衡量指标，迭代权重分配，在实践中反思前瞻性判断的偏差原因，不断优化系统思维构架，提升投资工作中判断的合理性。',
-                    en: 'Now, these experiences continually help with my daily work, including screening high-value data sources from massive raw ones, expanding industry measurement indicators, iterating weight distribution. Moreover, I reflect on the reasons for the deviation of forward-looking judgments in practice, continuously optimizing the system thinking structure, and enhancing the rationality of judgment in investment work.'
+                    cn: '自大学起投身中国开源技术社区建设，各大技术社区活跃街溜子。作为谷歌女性开发者大使、谷歌开发者社区组织者、开源社创始成员，也兼任科技媒体人工智能特邀编辑，每年撰写技术报道、访谈及报告，主持与组织各类技术活动。',
+                    en: 'Since college, I have been committed to building China\'s open source technology community. As an active organizer in various tech communities, I serve as a Google Women Developer Ambassador, Google Developer Community Organizer, and founding member of Open Source Society. I also work as a guest AI editor for tech media, writing technical reports, interviews, and articles annually, and hosting various tech events.'
                 }
             },{
                 desc: {
-                    cn: '我认为，行业研究和投资决策应是相互助力的，而决策系统的进化最最关键的，是从创业者宝贵的实践经验中得到反哺。而我，珍惜每一次和创业者们交流、学习的机会，并期待未来，能在我热爱的投资工作中，遇见更多atypical的你！',
-                    en: 'I believe that industry research and investment decision-making help with each other, and the most important thing for the evolution of the decision-making system is to get back-feeding from the valuable practical experience entrepreneurs give. I cherish every opportunity to communicate and learn from entrepreneurs, and look forward to meeting more atypical guys in the investment work I love in the future!'
+                    cn: '生活中是极限运动、摄影、博物学的爱好者，同时也是持证双板滑雪教练、国际急救员、器官捐献登记者，以及资深但手残的游戏玩家。',
+                    en: 'In my personal life, I\'m an enthusiast of extreme sports, photography, and natural history. I\'m a certified ski instructor, international first responder, and registered organ donor. I\'m also a veteran gamer with not-so-great skills.'
                 }
-            },{
-                desc: {
-                    cn: '关注科技领域的投资机会。',
-                    en: 'I concern about the investment opportunities in the technology sector.'
-                }
-            }]
+            }],
+            edu_exp: {
+                title: {
+                    cn: '教育经历：',
+                    en: 'Educational Experience:'
+                },
+                list: [{
+                    name: {
+                        cn: '同济大学 数字媒体专业',
+                        en: 'Tongji University, Digital Media'
+                    },
+                    desc: {
+                        cn: '本科',
+                        en: 'Bachelor'
+                    }
+                },{
+                    name: {
+                        cn: '复旦大学 企业管理双学位',
+                        en: 'Fudan University, Business Administration (Dual Degree)'
+                    },
+                    desc: {
+                        cn: '双学位',
+                        en: 'Dual Degree'
+                    }
+                },{
+                    name: {
+                        cn: '中国传媒大学 法学（知识产权方向）双学位',
+                        en: 'Communication University of China, Law (Intellectual Property) (Dual Degree)'
+                    },
+                    desc: {
+                        cn: '双学位',
+                        en: 'Dual Degree'
+                    }
+                }]
+            }
         },
         Will: {
             descList: [{
