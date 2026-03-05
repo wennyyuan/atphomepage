@@ -48,163 +48,179 @@ module.exports = {
                 }
             },
             portfolios: {
-                title: {
-                    cn: '投资案例：',
-                    en: 'Investment Portfolios:'
-                },
-                list: [
-                    {
-                        name: {
-                            cn: '快手',
-                            en: 'Kuaishou'
-                        },
-                        desc: {
-                            cn: '（领投B轮，董事：B轮-2016）',
-                            en: '(leading round B, director: round B-2016)'
-                        }
-                    },
-                    {
-                        name: {
-                            cn: '丁香园',
-                            en: 'DXY '
-                        },
-                        desc: {
-                            cn: '（领投A轮，董事：A轮-2016）',
-                            en: '(Leading round A, Director: Round A-2016)'
-                        }
-                    },
-                    {
-                        name: {
-                            cn: '好大夫',
-                            en: 'Haodf'
-                        },
-                        desc: {
-                            cn: '（领投A轮，董事：A轮-2016）',
-                            en: '(Leading round A, Director: Round A-2016)'
-                        }
-                    },
-                    {
-                        name: {
-                            cn: '优刻得Ucloud',
-                            en: 'Ucloud'
-                        },
-                        desc: {
-                            cn: '(A 轮，科创板：688158)',
-                            en: '(A round, Sci-tech Innovation Board: 688158)'
-                        }
-                    },
-                    {
-                        name: {
-                            cn: '万学教育',
-                            en: 'Wanxue Education'
-                        },
-                        desc: {
-                            cn: '（领投C轮，董事：C轮-2016）',
-                            en: '(Leading round C, Director: Round C-2016)'
-                        }
-                    },
-                    {
-                        name: {
-                            cn: '优信二手车',
-                            en: 'Uxin Group'
-                        },
-                        desc: {
-                            cn: '（领投A轮，Nasdaq：Uxin，董事：A轮至今）',
-                            en: '(Leading round A, Nasdaq: Uxin, Director: A round till now)'
-                        }
-                    },
-                    {
-                        name: {
-                            cn: '易车',
-                            en: 'Yiche'
-                        },
-                        desc: {
-                            cn: '（领投B轮，NYSE：BITA，董事：B轮-2012）',
-                            en: '(Leading round B, NYSE: BITA, Director: Round B-2012)'
-                        }
-                    },
-                    {
-                        name: {
-                            cn: '当当',
-                            en: 'Dangdang'
-                        },
-                        desc: {
-                            cn: '（领投C轮，NYSE：Dang，董事：C轮-2016）',
-                            en: '(Leading round C, NYSE: Dang, Director: Round C-2016)'
-                        }
-                    },
-                    {
-                        name: {
-                            cn: '文思海辉（文思创新）',
-                            en: 'Pactera (Pactera Innovation) '
-                        },                  
-                        desc: {
-                            cn: '领投A轮，NYSE：VIT，董事：A轮-2014年，私有化卖给黑石集团）',
-                            en: '(Leading round A, NYSE: VIT, Director: A round-2014, privatized and sold to Blackstone Group)'
-                        }
-                    },
-                    {
-                        name: {
-                            cn: '奇安信',
-                            en: 'Qi-anxin'
-                        },
-                        desc: {
-                            cn: '（A轮）',
-                            en: '(Round A)'
-                        }
-                    },
-                    {
-                        name: {
-                            cn: 'Kodiak',
-                            en: 'Kodiak'
-                        },
-                        desc: {
-                            cn: '（天使，Nasdaq: KOD）',
-                            en: '(Round Angel, Nasdaq: KOD)'
-                        }
-                    },
-                    {
-                        name:{
-                            cn: 'Musically',
-                            en: 'Musically'
-                        },
-                        desc: {
-                            cn: 'C 轮，字节跳动收购）',
-                            en: '(C round, acquired by ByteDance)'
-                        }
-                    },
-                    {
-                        name: {
-                            cn: '渡鸦',
-                            en: 'Raventech'
-                        },
-                        desc: {
-                            cn: '（A轮，百度收购）',
-                            en: '(A round, acquired by Baidu)'
-                        }
-                    },
-                    {
-                        name: {
-                            cn: '乐动力',
-                            en: 'Ledongli'
-                        },
-                        desc: {
-                            cn: '（A轮，阿里收购）',
-                            en: '(A round, acquired by Ali)'
-                        }
-                    },
-                    {
-                        name: {
-                            cn: 'eCarX',
-                            en: 'eCarX'
-                        },
-                        desc: {
-                            cn: '（天使联合创始人）',
-                            en: '(angel co-founder)'
-                        }
-                    },
-                ]
+    "title": {
+        "cn": "投资组合",
+        "en": "Portfolio Companies"
+    },
+    "subtitle": {
+        "cn": "我们很荣幸能与这些优秀的创业者同行",
+        "en": "We are honored to work with these outstanding entrepreneurs"
+    },
+    "list": [
+        {
+            "name": {
+                "cn": "Truesight",
+                "en": "Truesight"
             },
+            "desc": {
+                "cn": "Truesight 旗下产品像素蛋糕、Evoto，致力于为商业摄影提供智能影像解决方案，智能分析每一张照片并达到商业级后期精修处理效果。",
+                "en": "Truesight旗下产品像素蛋糕、Evoto，致力于为商业摄影提供智能影像解决方案，智能分析每一张照片并达到商业级后期精修处理效果。"
+            },
+            "round": {
+                "cn": "A轮",
+                "en": "Series A"
+            },
+            "status": {
+                "cn": "运营中",
+                "en": "Operating"
+            }
+        },
+        {
+            "name": {
+                "cn": "StarRocks",
+                "en": "StarRocks"
+            },
+            "desc": {
+                "cn": "镜舟科技（StarRocks）一直专注打造世界顶级的新一代极速全场景 MPP 数据库，帮助企业构建极速统一的湖仓分析新范式，是实现数字化转型和降本增效的关键基础设施。",
+                "en": "镜舟科技一直专注打造世界顶级的新一代极速全场景 MPP 数据库，帮助企业构建极速统一的湖仓分析新范式。"
+            },
+            "round": {
+                "cn": "A轮",
+                "en": "Series A"
+            },
+            "status": {
+                "cn": "运营中",
+                "en": "Operating"
+            }
+        },
+        {
+            "name": {
+                "cn": "票圈视频",
+                "en": "Piaoquan TV"
+            },
+            "desc": {
+                "cn": "Weiqu 旗下产品票圈视频，是基于移动互联网打造的集生活记录，创作表达，视频制作，AI处理，分享互动等多种强大功能的全品类、全能型视频记录，创作及表达平台。累计 4亿+平台用户，服务上百万内容创作生产者。",
+                "en": "基于移动互联网打造的全品类、全能型视频记录，创作及表达平台，累计4亿+平台用户。"
+            },
+            "round": {
+                "cn": "A轮",
+                "en": "Series A"
+            },
+            "status": {
+                "cn": "运营中",
+                "en": "Operating"
+            }
+        },
+        {
+            "name": {
+                "cn": "Nextie 明日新程",
+                "en": "Nextie"
+            },
+            "desc": {
+                "cn": "成立于 2025 年，由「微软小冰之父」李笛创立，核心团队为原微软小冰创始团队。专注研发「群体智能认知模型」，推出多智能体平台「团子」。",
+                "en": "由「微软小冰之父」李笛创立，专注研发「群体智能认知模型」，推出多智能体平台「团子」。"
+            },
+            "round": {
+                "cn": "A轮",
+                "en": "Series A"
+            },
+            "status": {
+                "cn": "运营中",
+                "en": "Operating"
+            }
+        },
+        {
+            "name": {
+                "cn": "鉴智机器人",
+                "en": "PhiGent Robotics"
+            },
+            "desc": {
+                "cn": "鉴智机器人以极致性价比的7V鱼眼方案打造面向\"辅助驾驶全面普惠\"的「标配最优解」，以完全数据驱动的端到端方案打造面向\"智驾终局\"的「旗舰终选」。",
+                "en": "以极致性价比的7V鱼眼方案和端到端方案，满足汽车产业链客户全面的智能化需求。"
+            },
+            "round": {
+                "cn": "A轮",
+                "en": "Series A"
+            },
+            "status": {
+                "cn": "运营中",
+                "en": "Operating"
+            }
+        },
+        {
+            "name": {
+                "cn": "CubyFun",
+                "en": "CubyFun"
+            },
+            "desc": {
+                "cn": "核心团队来自前大疆工程师与产品经理。主打「传递乐趣、启发创造」的智能硬件产品，旗下拥有智能互动音乐品牌「SummerTones」及智能桌游主机「JOYO」。",
+                "en": "核心团队来自前大疆工程师与产品经理，主打「传递乐趣、启发创造」的智能硬件产品。"
+            },
+            "round": {
+                "cn": "A轮",
+                "en": "Series A"
+            },
+            "status": {
+                "cn": "运营中",
+                "en": "Operating"
+            }
+        },
+        {
+            "name": {
+                "cn": "Pyromind Dynamics",
+                "en": "Pyromind Dynamics"
+            },
+            "desc": {
+                "cn": "致力于打造「Reinforcement Learning as a Service」平台，让强化学习训练、部署与评估像「搭建乐高」一样简单。",
+                "en": "打造「Reinforcement Learning as a Service」平台，让强化学习训练、部署与评估像「搭建乐高」一样简单。"
+            },
+            "round": {
+                "cn": "A轮",
+                "en": "Series A"
+            },
+            "status": {
+                "cn": "运营中",
+                "en": "Operating"
+            }
+        },
+        {
+            "name": {
+                "cn": "Dzine",
+                "en": "Dzine"
+            },
+            "desc": {
+                "cn": "一款面向专业设计师和内容创作者的「最可控的 AI 设计工具」，提供从图像生成到编辑的一站式解决方案。",
+                "en": "面向专业设计师和内容创作者的「最可控的 AI 设计工具」，提供从图像生成到编辑的一站式解决方案。"
+            },
+            "round": {
+                "cn": "A轮",
+                "en": "Series A"
+            },
+            "status": {
+                "cn": "运营中",
+                "en": "Operating"
+            }
+        },
+        {
+            "name": {
+                "cn": "Thunderbit",
+                "en": "Thunderbit"
+            },
+            "desc": {
+                "cn": "成立于美国旧金山，主打「下一代 AI 网页爬虫」。通过自然语言交互实现无代码数据抓取，支持从任意网站、PDF、图片中提取结构化数据。",
+                "en": "成立于美国旧金山，主打「下一代 AI 网页爬虫」，通过自然语言交互实现无代码数据抓取。"
+            },
+            "round": {
+                "cn": "A轮",
+                "en": "Series A"
+            },
+            "status": {
+                "cn": "运营中",
+                "en": "Operating"
+            }
+        }
+    ]
+},
             edu_exp: {
                 title: {
                     cn: '教育经历：',
