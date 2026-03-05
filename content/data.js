@@ -529,15 +529,158 @@ module.exports = {
             en: 'We are honored to work with these outstanding entrepreneurs'
         },
         list: [
-            // 示例格式 - 请在下面添加你的投资案例
             {
                 name: {
-                    cn: '项目名称中文',
-                    en: 'Project Name English'
+                    cn: 'Truesight',
+                    en: 'Truesight'
                 },
                 desc: {
-                    cn: '项目简介（一句话描述）',
-                    en: 'Project description (one sentence)'
+                    cn: 'Truesight 旗下产品像素蛋糕、Evoto，致力于为商业摄影提供智能影像解决方案，智能分析每一张照片并达到商业级后期精修处理效果。',
+                    en: 'Truesight旗下产品像素蛋糕、Evoto，致力于为商业摄影提供智能影像解决方案。'
+                },
+                round: {
+                    cn: 'A轮',
+                    en: 'Series A'
+                },
+                status: {
+                    cn: '运营中',
+                    en: 'Operating'
+                }
+            },
+            {
+                name: {
+                    cn: 'StarRocks',
+                    en: 'StarRocks'
+                },
+                desc: {
+                    cn: '镜舟科技（StarRocks）一直专注打造世界顶级的新一代极速全场景 MPP 数据库，帮助企业构建极速统一的湖仓分析新范式。',
+                    en: '镜舟科技一直专注打造世界顶级的新一代极速全场景 MPP 数据库。'
+                },
+                round: {
+                    cn: 'A轮',
+                    en: 'Series A'
+                },
+                status: {
+                    cn: '运营中',
+                    en: 'Operating'
+                }
+            },
+            {
+                name: {
+                    cn: '票圈视频',
+                    en: 'Piaoquan TV'
+                },
+                desc: {
+                    cn: 'Weiqu 旗下产品票圈视频，是基于移动互联网打造的集生活记录，创作表达，视频制作，AI处理，分享互动等多种强大功能的全品类、全能型视频记录，创作及表达平台。累计 4亿+平台用户。',
+                    en: '基于移动互联网打造的全品类、全能型视频记录，创作及表达平台，累计4亿+平台用户。'
+                },
+                round: {
+                    cn: 'A轮',
+                    en: 'Series A'
+                },
+                status: {
+                    cn: '运营中',
+                    en: 'Operating'
+                }
+            },
+            {
+                name: {
+                    cn: 'Nextie 明日新程',
+                    en: 'Nextie'
+                },
+                desc: {
+                    cn: '成立于 2025 年，由「微软小冰之父」李笛创立，核心团队为原微软小冰创始团队。专注研发「群体智能认知模型」，推出多智能体平台「团子」。',
+                    en: '由「微软小冰之父」李笛创立，专注研发「群体智能认知模型」，推出多智能体平台「团子」。'
+                },
+                round: {
+                    cn: 'A轮',
+                    en: 'Series A'
+                },
+                status: {
+                    cn: '运营中',
+                    en: 'Operating'
+                }
+            },
+            {
+                name: {
+                    cn: '鉴智机器人',
+                    en: 'PhiGent Robotics'
+                },
+                desc: {
+                    cn: '鉴智机器人以极致性价比的7V鱼眼方案打造面向"辅助驾驶全面普惠"的「标配最优解」，以完全数据驱动的端到端方案打造面向"智驾终局"的「旗舰终选」。',
+                    en: '以极致性价比的7V鱼眼方案和端到端方案，满足汽车产业链客户全面的智能化需求。'
+                },
+                round: {
+                    cn: 'A轮',
+                    en: 'Series A'
+                },
+                status: {
+                    cn: '运营中',
+                    en: 'Operating'
+                }
+            },
+            {
+                name: {
+                    cn: 'CubyFun',
+                    en: 'CubyFun'
+                },
+                desc: {
+                    cn: '核心团队来自前大疆工程师与产品经理。主打「传递乐趣、启发创造」的智能硬件产品，旗下拥有智能互动音乐品牌「SummerTones」及智能桌游主机「JOYO」。',
+                    en: '核心团队来自前大疆工程师与产品经理，主打「传递乐趣、启发创造」的智能硬件产品。'
+                },
+                round: {
+                    cn: 'A轮',
+                    en: 'Series A'
+                },
+                status: {
+                    cn: '运营中',
+                    en: 'Operating'
+                }
+            },
+            {
+                name: {
+                    cn: 'Pyromind Dynamics',
+                    en: 'Pyromind Dynamics'
+                },
+                desc: {
+                    cn: '致力于打造「Reinforcement Learning as a Service」平台，让强化学习训练、部署与评估像「搭建乐高」一样简单。',
+                    en: '打造「Reinforcement Learning as a Service」平台，让强化学习训练、部署与评估像「搭建乐高」一样简单。'
+                },
+                round: {
+                    cn: 'A轮',
+                    en: 'Series A'
+                },
+                status: {
+                    cn: '运营中',
+                    en: 'Operating'
+                }
+            },
+            {
+                name: {
+                    cn: 'Dzine',
+                    en: 'Dzine'
+                },
+                desc: {
+                    cn: '一款面向专业设计师和内容创作者的「最可控的 AI 设计工具」，提供从图像生成到编辑的一站式解决方案。',
+                    en: '面向专业设计师和内容创作者的「最可控的 AI 设计工具」，提供从图像生成到编辑的一站式解决方案。'
+                },
+                round: {
+                    cn: 'A轮',
+                    en: 'Series A'
+                },
+                status: {
+                    cn: '运营中',
+                    en: 'Operating'
+                }
+            },
+            {
+                name: {
+                    cn: 'Thunderbit',
+                    en: 'Thunderbit'
+                },
+                desc: {
+                    cn: '成立于美国旧金山，主打「下一代 AI 网页爬虫」。通过自然语言交互实现无代码数据抓取，支持从任意网站、PDF、图片中提取结构化数据。',
+                    en: '成立于美国旧金山，主打「下一代 AI 网页爬虫」，通过自然语言交互实现无代码数据抓取。'
                 },
                 round: {
                     cn: 'A轮',
@@ -548,8 +691,6 @@ module.exports = {
                     en: 'Operating'
                 }
             }
-            // 复制上面的格式，添加更多投资案例
-            // 记得在每一项后面加逗号，最后一项不要加逗号
         ]
     },
     contact: {
