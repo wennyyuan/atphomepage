@@ -51,10 +51,10 @@
 		padding: 0 10%;
 	}
 	.portfolio-list li {
-		width: 120px;
+		width: 180px;
 		float: left;
-		margin-right: calc((100% - 360px)/2);
-		margin-bottom: 10px;
+		margin-right: calc((100% - 540px)/2);
+		margin-bottom: 30px;
 		cursor: pointer;
 	}
 
@@ -62,11 +62,12 @@
 		margin-right: 0;
 	}
 	.portfolio-list li .avatar {
-		width: 120px;
-		height: 120px;
-		background: rgba(255, 255, 255, 0.1);
-		overflow: hidden;
-		margin-bottom: 10px;
+		width: 160px;
+		height: 100px;
+		margin: 0 auto 15px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 	.team-info {
 		width: 100%;
