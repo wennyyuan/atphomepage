@@ -330,7 +330,7 @@ module.exports = {
         Wenny: {
             descList: [{
                 desc: {
-                    cn: '超过十年的云计算领域工作/创业经验，经历移动开发、云服务与机器学习时代，现以创业支持视角，发掘与陪伴初创企业在人工智能时代投身变革。',
+                    cn: '超过十年的云计算领域工作/创业经验，经历移动开发、云服务与机器学习时代，现以创业支持视角，发掘与陪伴初创企业在人工智能时代引领变革。',
                     en: 'With over a decade of experience in cloud computing, entrepreneurship, and work spanning mobile development, cloud services, and machine learning eras, I now focus on discovering and accompanying startups in the AI revolution from an entrepreneurial support perspective.'
                 }
             },{
@@ -351,8 +351,8 @@ module.exports = {
                 },
                 list: [{
                     name: {
-                        cn: '同济大学 数字媒体专业',
-                        en: 'Tongji University, Digital Media'
+                        cn: '同济大学 数字媒体专业 本科',
+                        en: 'Tongji University, Digital Media (Bachelor)'
                     },
                     desc: {
                         cn: '本科',
@@ -360,7 +360,7 @@ module.exports = {
                     }
                 },{
                     name: {
-                        cn: '复旦大学 企业管理双学位',
+                        cn: '复旦大学 企业管理 双学位',
                         en: 'Fudan University, Business Administration (Dual Degree)'
                     },
                     desc: {
