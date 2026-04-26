@@ -246,6 +246,20 @@
         <li>
         <div class="user-info-box">
           <div class="avatar">
+          <img data-src="/statics/bruce.jpg" alt="" />
+          </div>
+          <div class="name">
+          刘润泽 Bruce
+          </div>
+        </div>
+        <div class="intro">
+          <% data.team.Bruce.descList.forEach(function(item){ %>
+            <p><%= item.desc %></p>
+          <% }); %>
+        </div> </li>
+        <li>
+        <div class="user-info-box">
+          <div class="avatar">
           <img data-src="/statics/wenny.jpg" alt="" />
           </div>
           <div class="name">

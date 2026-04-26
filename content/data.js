@@ -379,6 +379,24 @@ module.exports = {
                 }]
             }
         },
+        Bruce: {
+            descList: [{
+                desc: {
+                    cn: '我是一个 00 后科技投资人。',
+                    en: 'I am a Gen Z technology investor.'
+                }
+            },{
+                desc: {
+                    cn: '我从 2021 年开始做风险投资，一直在看前沿科技和应用创业公司。我会真诚地对待每一位和我聊的创始人，希望能给创始人带来更多不同角度的思考。',
+                    en: 'I have been working in venture capital since 2021, focusing on frontier technology and application startups. I treat every founder I speak with sincerely, and I hope to offer perspectives from different angles that can be genuinely useful.'
+                }
+            },{
+                desc: {
+                    cn: '期待和创始人们相识于早期，然后一起干票大的！',
+                    en: 'I look forward to meeting founders early and then building something big together!'
+                }
+            }]
+        },
         Will: {
             descList: [{
                 desc: {
