@@ -300,7 +300,6 @@
     <%
     const projectConfig = {
       'Truesight': { logo: 'truesight.png', link: 'https://www.pixcakeai.com/' },
-      'StarRocks': { logo: 'starrocks.svg', link: 'https://www.mirrorship.cn/' },
       '票圈视频': { logo: 'piaoquan.jpeg', link: 'https://www.piaoquantv.com/' },
       'Nextie 明日新程': { logo: 'nextie.png', link: 'https://mytuanzi.com/' },
       '鉴智机器人': { logo: 'phigent.png', link: 'https://www.phigent.ai/' },
@@ -331,7 +330,7 @@
             const config = projectConfig[projectName] || {};
             const hasLogo = config.logo || false;
             const hasLink = config.link || false;
-            const noFilter = ['票圈视频', 'Nextie 明日新程', 'Pyromind Dynamics', 'Dzine', 'StarRocks'].includes(projectName);
+            const noFilter = ['票圈视频', 'Nextie 明日新程', 'Pyromind Dynamics', 'Dzine'].includes(projectName);
           %>
           <div class="avatar portfolio-avatar<%= noFilter ? ' img-no-filter' : '' %>">
           <% if (hasLogo) { %>

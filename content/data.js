@@ -580,24 +580,6 @@ module.exports = {
             },
             {
                 name: {
-                    cn: 'StarRocks',
-                    en: 'StarRocks'
-                },
-                desc: {
-                    cn: '镜舟科技（StarRocks）一直专注打造世界顶级的新一代极速全场景 MPP 数据库，帮助企业构建极速统一的湖仓分析新范式。',
-                    en: '镜舟科技一直专注打造世界顶级的新一代极速全场景 MPP 数据库。'
-                },
-                round: {
-                    cn: 'A轮',
-                    en: 'Series A'
-                },
-                status: {
-                    cn: '运营中',
-                    en: 'Operating'
-                }
-            },
-            {
-                name: {
                     cn: '票圈视频',
                     en: 'Piaoquan TV'
                 },
