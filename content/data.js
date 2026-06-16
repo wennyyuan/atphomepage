@@ -275,18 +275,7 @@ module.exports = {
                     cn: '投资案例：',
                     en: 'Investment Portfolios:'
                 },
-                list: [
-                    {
-                        name: {
-                            cn: 'StarRocks：',
-                            en: 'StarRocks: '
-                        },
-                        desc: {
-                            cn: '开源基础软件，极速全场景的数据仓库。',
-                            en: 'Open-source infrastructure software. A unified database enabling blazingly fast data analytics.'
-                        }
-                    }
-                ]
+                list: []
             }, 
             edu_exp: {
                 title: {

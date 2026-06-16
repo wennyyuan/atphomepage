@@ -212,6 +212,7 @@
               <li><strong class="label">• <%= item.name %></strong><%= item.desc %></li> 
             <% }); %>
           </ul> 
+          <% if (data.team.chao.portfolios.list.length) { %>
           <h3>
             <%= data.team.chao.portfolios.title %>
           </h3> 
@@ -220,6 +221,7 @@
               <li><%= item.name %> <span class="gray"><%= item.desc %></span></li> 
             <% }); %>
           </ul> 
+          <% } %>
           <h3>
             <%= data.team.chao.edu_exp.title %>
           </h3> 
