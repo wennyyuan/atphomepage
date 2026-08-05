@@ -262,6 +262,28 @@
         <li>
         <div class="user-info-box">
           <div class="avatar">
+          <img data-src="/statics/yan.jpg" alt="<%= data.team.Yan.name %>" />
+          </div>
+          <div class="name">
+          <%= data.team.Yan.name %>
+          </div>
+        </div>
+        <div class="intro">
+          <% data.team.Yan.descList.forEach(function(item){ %>
+            <p><%= item.desc %></p>
+          <% }); %>
+          <h3>
+            <%= data.team.Yan.edu_exp.title %>
+          </h3>
+          <ul>
+            <% data.team.Yan.edu_exp.list.forEach(function(item){ %>
+              <li><%= item.name %> <span class="gray"><%= item.desc %></span></li>
+            <% }); %>
+          </ul>
+        </div> </li> 
+        <li>
+        <div class="user-info-box">
+          <div class="avatar">
           <img data-src="/statics/wenny.jpg" alt="" />
           </div>
           <div class="name">

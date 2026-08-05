@@ -316,6 +316,71 @@ module.exports = {
                 }
             ]
         },
+        Bruce: {
+            descList: [{
+                desc: {
+                    cn: '我是一个 00 后科技投资人。',
+                    en: 'I am a Gen Z technology investor.'
+                }
+            },{
+                desc: {
+                    cn: '我从 2021 年开始做风险投资，一直在看前沿科技和应用创业公司。我会真诚地对待每一位和我聊的创始人，希望能给创始人带来更多不同角度的思考。',
+                    en: 'I have been working in venture capital since 2021, focusing on frontier technology and application startups. I treat every founder I speak with sincerely, and I hope to offer perspectives from different angles that can be genuinely useful.'
+                }
+            },{
+                desc: {
+                    cn: '期待和创始人们相识于早期，然后一起干票大的！',
+                    en: 'I look forward to meeting founders early and then building something big together!'
+                }
+            }]
+        },
+        Yan: {
+            name: {
+                cn: '严强 YAN',
+                en: 'YAN Qiang'
+            },
+            descList: [{
+                desc: {
+                    cn: '我是一名独立研究员和投资人，长期专注于新技术研究和技术产品化商业化。',
+                    en: 'I am an independent researcher and investor focusing on emerging technologies and their productization and commercialization.'
+                }
+            },{
+                desc: {
+                    cn: '快手早期员工，曾出任高级副总裁，负责商业化、内容运营、用户增长及市场品牌；此前任阿里巴巴高级算法专家，负责手机淘宝推荐算法，获阿里巴巴集团百万CEO特别奖。',
+                    en: 'As an early employee of Kuaishou, I served as Senior Vice President, leading monetization, content operations, user growth, marketing, and branding. Previously, I was a Senior Algorithm Expert at Alibaba, responsible for recommendation algorithms for Mobile Taobao, and received Alibaba\'s CEO Special Award.'
+                }
+            },{
+                desc: {
+                    cn: '在多项国际顶级机器学习竞赛(KDD、WSDM、ICDM等)均获得优异成绩。',
+                    en: 'I also achieved top results in several leading international machine learning competitions, including KDD, WSDM, and ICDM.'
+                }
+            }],
+            edu_exp: {
+                title: {
+                    cn: '教育经历：',
+                    en: 'Education'
+                },
+                list: [{
+                    name: {
+                        cn: '2006年-2010年 中国科学技术大学',
+                        en: '2006-2010 University of Science and Technology of China'
+                    },
+                    desc: {
+                        cn: '计算机 学士',
+                        en: 'B.S. in Computer Science'
+                    }
+                },{
+                    name: {
+                        cn: '2010年-2013年 中国科学院自动化研究所',
+                        en: '2010-2013 Institute of Automation, Chinese Academy of Sciences'
+                    },
+                    desc: {
+                        cn: '计算机 硕士',
+                        en: 'M.S. in Computer Science'
+                    }
+                }]
+            }
+        },
         Wenny: {
             descList: [{
                 desc: {
@@ -367,24 +432,6 @@ module.exports = {
                     }
                 }]
             }
-        },
-        Bruce: {
-            descList: [{
-                desc: {
-                    cn: '我是一个 00 后科技投资人。',
-                    en: 'I am a Gen Z technology investor.'
-                }
-            },{
-                desc: {
-                    cn: '我从 2021 年开始做风险投资，一直在看前沿科技和应用创业公司。我会真诚地对待每一位和我聊的创始人，希望能给创始人带来更多不同角度的思考。',
-                    en: 'I have been working in venture capital since 2021, focusing on frontier technology and application startups. I treat every founder I speak with sincerely, and I hope to offer perspectives from different angles that can be genuinely useful.'
-                }
-            },{
-                desc: {
-                    cn: '期待和创始人们相识于早期，然后一起干票大的！',
-                    en: 'I look forward to meeting founders early and then building something big together!'
-                }
-            }]
         },
         Will: {
             descList: [{
